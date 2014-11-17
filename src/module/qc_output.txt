@@ -1,0 +1,1 @@
+{'Slightly conservative': 2, 'Liberal': 1, 'Conservative': 3}
