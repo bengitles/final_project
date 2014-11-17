@@ -1,0 +1,3284 @@
+
+IF R ASSIGNED TO STANDARD VERSION CAMPAIGN INTEREST QUESTION:
+A1a.                   SPLIT TYPE: A OF A/B
+FORWARD/REVERSE
+Some people don't pay much attention to political campaigns. How about you?
+1.Very much interested
+3.Somewhat interested
+5.Not much interested
+IF R ASSIGNED TO REVISED VERSION CAMPAIGN INTEREST QUESTION:
+A1b.                   SPLIT TYPE: B OF A/B
+FORWARD/REVERSE
+How interested are you in information about what's going on in government and politics?
+EXTREMELY INTERESTED, VERY INTERESTED, MODERATELY INTERESTED, SLIGHTLY INTERESTED, or NOT INTERESTED AT ALL?
+1.Extremely interested
+2.Very interested
+3.Moderately interested
+4.Slightly interested
+5.Not interested at all
+A2.
+How much have you thought about the upcoming elections for president?
+QUITE A LOT or ONLY A LITTLE?
+1.Quite a lot
+5.Only a little
+A3.
+Do you happen to know where people who live in your neighborhood go to vote?
+1.Yes
+5.No
+7.R VOL: Vote by mail only
+IF R DID NOT INDICATE VOTE BY MAIL ONLY:
+A4.
+Have you ever voted in your precinct or election district?
+1.Yes
+5.No
+7.R VOL: Vote by mail only
+
+A5.                                                             FORWARD/REVERSE
+How often would you say you vote?
+ALWAYS, NEARLY ALWAYS, PART OF THE TIME, or SELDOM?
+1.Always
+2.Nearly always
+3.Part of the time
+4.Seldom
+
+A6.
+If "1" represents someone who will DEFINITELY NOT VOTE and "10" represents someone who DEFINITELY WILL VOTE, where on this scale would you place yourself?
+1. 1. Definitely will not vote
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10. 10. Definitely will vote
+A7.
+In 2004 John Kerry ran on the Democratic ticket against George W. Bush for the Republicans. Do you remember for sure whether or not you voted in that election?
+{DO NOT PROBE 'DK' RESPONSE}
+1.Yes, voted
+5.No, didn't vote
+
+A7a.
+Which one did you vote for?
+{DO NOT PROBE 'DK' RESPONSE}
+1.John Kerry
+3.George W. Bush
+7.Other
+9.I did not vote in 2004
+
+A7b.
+In 2008 Barack Obama ran on the Democratic ticket against John McCain for the Republicans. Do you remember for sure whether or not you voted in that election?
+{DO NOT PROBE 'DK' RESPONSE}
+1.Yes, voted
+5.No, didn't vote
+
+A7c.
+Which one did you vote for?
+{DO NOT PROBE 'DK' RESPONSE}
+1.Barack Obama
+3.John McCain
+7.Other
+9.I did not vote in 2008
+
+
+
+A8.
+Now I'd like to ask you about the good and bad points of the major candidates for President.
+
+A8a.
+Is there anything in particular about Mitt Romney that might make you want to vote for him?
+1.Yes
+5.No
+
+
+A8b.
+Is there something that would make you vote for a Republican presidential candidate?  
+Please list as many reasons as you can think of.
+
+
+A8c.
+Is there anything in particular about Mitt Romney that might make you want to vote AGAINST him?
+1.Yes
+5.No
+
+
+A8d.
+Is there something that would make you vote against a Republican presidential candidate?  
+Please list as many reasons as you can think of.
+
+
+A9a.
+Is there anything in particular about Barack Obama that might make you want to vote for him?
+1.Yes
+5.No
+
+
+A9b.
+Is there something that would make you vote for a Democratic presidential candidate?  
+Please list as many reasons as you can think of.
+
+
+A9c.
+Is there anything in particular about Barack Obama that might make you want to vote AGAINST him?
+1.Yes
+5.No
+
+
+A9d.
+Is there something that would make you vote against a Democratic presidential candidate?  
+Please list as many reasons as you can think of.
+
+
+A10a.
+If Barack Obama wins the presidential election in November, how will you feel?
+1.Happy
+5.Sad
+7.Neither happy nor sad
+
+A10a1x.                                                     FORWARD/REVERSE
+If you answered happy or sad, would you be EXTREMELY happy, MODERATELY happy, or SLIGHTLY happy? / EXTREMELY sad, MODERATELY sad, or SLIGHTLY sad?
+1.Extremely
+3.Moderately
+5.Slightly
+7.Neither happy nor sad
+
+A10b.
+If Mitt Romney wins the presidential election in November, how will you feel?
+1.Happy
+5.Sad
+7.Neither happy nor sad
+
+A10b1x.                                                     FORWARD/REVERSE
+If you answered happy or sad, would you be EXTREMELY happy, MODERATELY happy, or SLIGHTLY happy? / EXTREMELY sad, MODERATELY sad, or SLIGHTLY sad?
+1.Extremely
+3.Moderately
+5.Slightly
+7.Neither happy nor sad
+
+A11.
+Do you have access to the internet or the World Wide Web?
+1.Yes
+5.No
+
+IF R ASSIGNED TO "OLD" VERSION OF MEDIA QUESTIONS:
+
+A11b.
+How many days in the PAST WEEK did you watch the NATIONAL network news on TV?
+0.None
+1.One day
+2.Two days
+3.Three days
+4.Four days
+5.Five days
+6.Six days
+7.Seven days
+
+Z1control1.
+Have you ever suffered from a fatal heart attack while watching television?
+0.Yes
+1.No
+
+A11b1.
+If you watched national network TV news in the past week: How much attention do you pay to news on NATIONAL news shows about the campaign for President?
+1.A great deal
+2.Quite a bit
+3.Some
+4.Very little
+5.Didn't watch network TV news
+
+A11c1a.
+How many days in the PAST WEEK did you watch the LOCAL TV news shows such as "Eyewitness News" or "Action News" in the LATE AFTERNOON or EARLY-EVENING?
+
+0.None
+1.One day
+2.Two days
+3.Three days
+4.Four days
+5.Five days
+6.Six days
+7.Seven days
+
+A11c1b.
+How many days in the PAST WEEK did you watch the LOCAL TV news shows in the LATE EVENING?
+
+0.None
+1.One day
+2.Two days
+3.Three days
+4.Four days
+5.Five days
+6.Six days
+7.Seven days
+
+A11c2.
+How much attention do you pay to news on LOCAL news shows about the campaign for President?
+1.A great deal
+2.Quite a bit
+3.Some
+4.Very little
+5.None
+
+
+A11d1a.
+How many days in the PAST WEEK did you read a daily newspaper?
+0.None
+1.One day
+2.Two days
+3.Three days
+4.Four days
+5.Five days
+6.Six days
+7.Seven days
+
+A11d1b.
+How many days in the PAST WEEK did you read a daily newspaper on the Internet?
+0.None
+1.One day
+2.Two days
+3.Three days
+4.Four days
+5.Five days
+6.Six days
+7.Seven days
+
+A11d2.
+Did you read about the campaign in any newspaper?
+1.Yes
+5.No
+
+A11d2a.
+How much attention do you pay to newspaper articles about the campaign for President?
+1.A great deal
+2.Quite a bit
+3.Some
+4.Very little
+
+A11e.
+How many days in the PAST WEEK did you listen to news on the radio?
+0.None
+1.One day
+2.Two days
+3.Three days
+4.Four days
+5.Five days
+6.Six days
+7.Seven days
+
+
+A11e1.                         FORWARD/REVERSE
+How much attention do you pay to news on the radio about the campaign for President?
+1.A great deal
+2.Quite a bit
+3.Some
+4.Very little
+
+A12a1.               
+During a typical week, how many days do you watch, read, or listen to news on the Internet, not including sports?
+0.None
+1.One day
+2.Two days
+3.Three days
+4.Four days
+5.Five days
+6.Six days
+7.Seven days
+
+A12a1a_HR.     
+IF NUMBER OF DAYS ATTENDING NEWS ON INTERNET IS MORE THAN 0:
+On a typical day when you watch, read, or listen to news on the internet, about how much time do you spend watching or reading news on the internet, not including sports?
+{ENTER in order hours, minutes.
+ENTER HOURS: (enter 0 if minutes only) ENTER MINUTES: (enter 0 if hours only)}
+
+
+A12a1a1.                    FORWARD/REVERSE
+IF NUMBER OF DAYS ATTENDING NEWS ON INTERNET IS MORE THAN 0:
+How much attention do you pay to news about national politics on the Internet? 
+1.A great deal
+2.A lot
+3.A moderate amount
+4.A little
+5.None at all
+
+A12b.                 
+During a typical week, how many days do you watch news on TV, not including sports?
+
+0.None
+1.One day
+2.Two days
+3.Three days
+4.Four days
+5.Five days
+6.Six days
+7.Seven days
+
+A12b1_HR.       
+On a typical day when you watch news on TV, about how much time do you spend watching news on TV, not including sports
+{ENTER in order hours, minutes.
+ENTER HOURS: (enter 0 if minutes only) ENTER MINUTES: (enter 0 if hours only)}
+
+
+A12b1a.                      FORWARD/REVERSE
+How much attention do you pay to news about national politics on TV?
+1.A great deal
+2.A lot
+3.A moderate amount
+4.A little
+5.None at all
+
+A12c.                 
+During a typical week, how many days do you read news in a printed newspaper, not including sports?
+
+0.None
+1.One day
+2.Two days
+3.Three days
+4.Four days
+5.Five days
+6.Six days
+7.Seven days
+
+IF NUMBER OF DAYS R READS PRINT NEWSPAPER IS MORE THAN 0:
+A12c1_HR.       
+On a typical day when you read news in a printed newspaper, about how much time do you spend reading news in a printed newspaper, not including sports?
+{ENTER in order hours, minutes.
+ENTER HOURS: (enter 0 if minutes only) ENTER MINUTES: (enter 0 if hours only)}
+
+IF NUMBER OF DAYS R READS PRINT NEWSPAPER >0:
+A12c1a.                      FORWARD/REVERSE
+How much attention do you pay to news about national politics in printed newspapers? 
+1.A great deal
+2.A lot
+3.A moderate amount
+4.A little
+5.None at all
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A12d.
+During a typical week, how many days do you listen to news on the radio, not including sports?
+0.None
+1.One day
+2.Two days
+3.Three days
+4.Four days
+5.Five days
+6.Six days
+7.Seven days
+
+
+A12d1_HR. 
+On a typical day when you listen to news on the radio, about how much time do you spend listening to news on the radio, not including sports?
+{ENTER in order hours, minutes.
+ENTER HOURS: (enter 0 if minutes only) ENTER MINUTES: (enter 0 if hours only)}
+
+
+A12d1a.
+FORWARD/REVERSE
+How much attention do you pay to news about national politics on the radio? 
+1.A great deal
+2.A lot
+3.A moderate amount
+4.A little
+5.None at al
+
+A13.
+Do you feel things in this country are generally going in the RIGHT DIRECTION, or do you feel things have pretty seriously gotten off on the WRONG TRACK?
+1.Right direction
+5.Wrong track
+
+A14a.
+Do you APPROVE or DISAPPROVE of the way Barack Obama is handling his job as president?
+1.Approve
+5.Disapprove	
+IF R APPROVES/DISAPPROVES OF B OBAMA HANDLING JOB AS PRESIDENT:
+A14a1.
+Do you approve STRONGLY or NOT STRONGLY? / Do you disapprove STRONGLY or NOT STRONGLY?
+1.Strongly
+5.Not strongly
+A14b.
+Do you APPROVE or DISAPPROVE of the way Barack Obama is handling the economy?
+1.Approve
+5.Disapprove
+IF R APPROVES/DISAPPROVES OF B OBAMA HANDLING THE ECONOMY:
+A14b1.
+Do you approve STRONGLY or NOT STRONGLY? / Do you disapprove STRONGLY or NOT STRONGLY?
+1.Strongly
+5.Not strongly
+A14c.
+Do you APPROVE or DISAPPROVE of the way Barack Obama is handling relations with foreign countries?
+1.Approve
+5.Disapprove
+IF R APPROVES/DISAPPROVES OF B OBAMA HANDLING FOREIGN RELATIONS:
+A14c1.
+Do you approve STRONGLY or NOT STRONGLY? / Do you disapprove STRONGLY or NOT STRONGLY?
+1.Strongly
+5.Not strongly
+A14d.
+Do you APPROVE or DISAPPROVE of the way Barack Obama is handling the environment?
+1.Approve
+5.Disapprove
+
+A14d1.
+Do you approve STRONGLY or NOT STRONGLY? / Do you disapprove STRONGLY or NOT STRONGLY?
+1.Strongly
+5.Not strongly
+A14e.
+Do you APPROVE or DISAPPROVE of the way Barack Obama is handling health care?
+1.Approve
+5.Disapprove
+
+
+A14e1.
+Do you approve STRONGLY or NOT STRONGLY? / Do you disapprove STRONGLY or NOT STRONGLY?
+1.Strongly
+5.Not strongly
+
+A14f.
+Do you APPROVE or DISAPPROVE of the way Barack Obama is handling the war in Iraq?
+1.Approve
+5.Disapprove
+
+A14f1.
+Do you approve STRONGLY or NOT STRONGLY? / Do you disapprove STRONGLY or NOT STRONGLY?
+1.Strongly
+5.Not strongly
+
+A15.                                                           FORWARD/REVERSE
+As you know, representatives to Congress in Washington are being chosen in this election from congressional districts all around the country.
+How much would you say that you personally care about the way the election to the U.S. House of Representatives comes out?
+1.Very much
+2.Pretty much
+3.Not very much
+
+A16.
+Do you APPROVE or DISAPPROVE of the way the U.S. Congress has been handling its job?
+1.Approve
+5.Disapprove
+
+A16a.
+IF R APPROVES U.S. CONGRESS HANDLING ITS JOB /
+IF R DISAPPROVES U.S. CONGRESS HANDLING ITS JOB::
+Do you approve STRONGLY or NOT STRONGLY? / Do you disapprove STRONGLY or NOT STRONGLY?
+1.Strongly
+5.Not strongly
+
+B1.
+I'd like to get your feelings toward some of our political leaders and other people who are in the news these days. Please rate each of the people below using something we call the feeling thermometer. Ratings between 50 degrees and 100 degrees mean that you feel favorable and warm toward the person. Ratings between 0 degrees and 50 degrees mean that you don't feel favorable toward the person and that you don't care too much for that person. You would rate the person at the 50 degree mark if you don't feel particularly warm or cold toward the person.
+If you come to a person whose name you don't recognize, you don't need to rate that person, you can enter the code "777".
+
+B1a.
+How would you rate: George W. Bush
+ENTER number between 0-100 (0 is very unfavorable, 50 is neutral, 100 is very favorable)
+ENTER "777" for "Don't recognize"
+ENTER "888" for "Don't know where to rate".
+
+B1b1.
+Barack Obama
+ENTER number between 0-100 (0 is very unfavorable, 50 is neutral, 100 is very favorable)
+ENTER "777" for "Don't recognize"
+ENTER "888" for "Don't know where to rate".
+
+
+B1b2.
+Mitt Romney
+ENTER number between 0-100 (0 is very unfavorable, 50 is neutral, 100 is very favorable)
+ENTER "777" for "Don't recognize"
+ENTER "888" for "Don't know where to rate".
+
+B1c1.
+Joe Biden
+ENTER number between 0-100 (0 is very unfavorable, 50 is neutral, 100 is very favorable)
+ENTER "777" for "Don't recognize"
+ENTER "888" for "Don't know where to rate".
+
+B1c2.
+Paul Ryan
+ENTER number between 0-100 (0 is very unfavorable, 50 is neutral, 100 is very favorable)
+ENTER "777" for "Don't recognize"
+ENTER "888" for "Don't know where to rate".
+
+B1d.
+Hillary Clinton
+ENTER number between 0-100 (0 is very unfavorable, 50 is neutral, 100 is very favorable)
+ENTER "777" for "Don't recognize"
+ENTER "888" for "Don't know where to rate".
+
+B1e.
+Bill Clinton
+ENTER number between 0-100 (0 is very unfavorable, 50 is neutral, 100 is very favorable)
+ENTER "777" for "Don't recognize"
+ENTER "888" for "Don't know where to rate".
+
+B1f.
+Todd Akin
+ENTER number between 0-100 (0 is very unfavorable, 50 is neutral, 100 is very favorable)
+ENTER "777" for "Don't recognize"
+ENTER "888" for "Don't know where to rate".
+
+B1g.
+Rush Limbaugh
+ENTER number between 0-100 (0 is very unfavorable, 50 is neutral, 100 is very favorable)
+ENTER "777" for "Don't recognize"
+ENTER "888" for "Don't know where to rate".
+
+
+B1h.
+Nancy Pelosi
+ENTER number between 0-100 (0 is very unfavorable, 50 is neutral, 100 is very favorable)
+ENTER "777" for "Don't recognize"
+ENTER "888" for "Don't know where to rate".
+
+B1i.
+John Boehner
+ENTER number between 0-100 (0 is very unfavorable, 50 is neutral, 100 is very favorable)
+ENTER "777" for "Don't recognize"
+ENTER "888" for "Don't know where to rate".
+
+Z1control8.
+Enter 222 here
+ENTER number between 0-100 (0 is very unfavorable, 50 is neutral, 100 is very favorable)
+ENTER "777" for "Don't recognize"
+ENTER "888" for "Don't know where to rate".
+
+B1j.
+Harry Reid
+ENTER number between 0-100 (0 is very unfavorable, 50 is neutral, 100 is very favorable)
+ENTER "777" for "Don't recognize"
+ENTER "888" for "Don't know where to rate".
+
+B1k.
+Mitch McConnell
+ENTER number between 0-100 (0 is very unfavorable, 50 is neutral, 100 is very favorable)
+ENTER "777" for "Don't recognize"
+ENTER "888" for "Don't know where to rate".
+
+B1l.
+Donald Trump
+ENTER number between 0-100 (0 is very unfavorable, 50 is neutral, 100 is very favorable)
+ENTER "777" for "Don't recognize"
+ENTER "888" for "Don't know where to rate".
+
+
+B1m.
+the DEMOCRATIC PARTY
+ENTER number between 0-100 (0 is very unfavorable, 50 is neutral, 100 is very favorable)
+ENTER "777" for "Don't recognize"
+ENTER "888" for "Don't know where to rate".
+
+B1n.
+the REPUBLICAN PARTY
+ENTER number between 0-100 (0 is very unfavorable, 50 is neutral, 100 is very favorable)
+ENTER "777" for "Don't recognize"
+ENTER "888" for "Don't know where to rate".
+
+
+O2a.
+What job or political office does David Cameron now hold?
+Enter "Don't know" if you don't know.
+
+O2b.
+What job or political office does Joe Biden now hold?
+Enter "Don't know" if you don't know.
+
+O2c.
+What job or political office does John Boehner now hold?
+Enter "Don't know" if you don't know.
+
+O2d.
+What job or political office does John Roberts now hold?
+Enter "Don't know" if you don't know.
+
+C1.
+I'd like to ask you what you think are the good and bad points about the two NATIONAL PARTIES.
+
+C1a.
+Is there anything in particular that you LIKE about the Democratic party?
+1.Yes
+5.No
+
+C1b.
+IF R SAYS THERE IS SOMETHING THAT R LIKES ABOUT DEMOCRATIC PARTY:
+What is that?
+{PROBE: ANYTHING ELSE YOU LIKE ABOUT THE DEMOCRATIC PARTY? UNTIL R SAYS NO.}
+
+C1c.
+Is there anything in particular that you DON'T LIKE about the Democratic party?
+1.Yes
+5.No
+
+C1d.
+IF R SAYS THERE IS SOMETHING THAT R DISLIKES ABOUT DEMOCRATIC PARTY:
+What is that?
+{PROBE: ANYTHING ELSE YOU DON'T LIKE ABOUT THE DEMOCRATIC PARTY? UNTIL R SAYS NO.}
+
+C2a.
+Is there anything in particular that you LIKE about the Republican party?
+1.Yes
+5.No
+
+C2b.
+IF R SAYS THERE IS SOMETHING THAT R LIKES ABOUT REPUBLICAN PARTY:
+What is that?
+{PROBE: ANYTHING ELSE YOU LIKE ABOUT THE REPUBLICAN PARTY? UNTIL R SAYS NO.}
+
+C2c.
+Is there anything in particular that you DON'T LIKE about the Republican party?
+1.Yes
+5.No
+
+C2d.
+IF R SAYS THERE IS SOMETHING THAT R DISLIKES ABOUT REPUBLICAN PARTY:
+What is that?
+{PROBE: ANYTHING ELSE YOU DON'T LIKE ABOUT THE REPUBLICAN PARTY? UNTIL R SAYS NO.}
+
+C3.
+Do you think it is better when ONE PARTY CONTROLS both the presidency and Congress, better when CONTROL IS SPLIT between the Democrats and Republicans, or DOESN'T IT MATTER?
+1.Better when one party controls both
+3.Better when control is split
+5.It doesn't matter
+
+C4a.                                                           FORWARD/REVERSE
+How similar are Republicans to one another in terms of what they want government to do and not do?
+1.Extremely similar
+2.Very similar
+3.Moderately similar
+4.Slightly similar
+5.Not similar at all
+
+C4b.                                                           FORWARD/REVERSE
+How similar are Democrats to one another in terms of what they want government to do and not do?
+1.Extremely similar
+2.Very similar
+3.Moderately similar
+4.Slightly similar
+5.Not similar at all
+
+C5_.
+Now on another topic. Are you living at home with one or more persons who are family members?
+1.Yes
+5.No
+
+C5.
+We are interested in how people are getting along financially these days. Would you say that you / you and your family are BETTER off or WORSE off than you were a year ago?
+1.Better
+3.Worse
+5.The same
+
+C5a.
+MUCH better or SOMEWHAT better? / MUCH worse or SOMEWHAT worse?
+1.Much
+5.Somewhat
+
+C6.
+Now looking ahead, do you think that a year from now you / you and your family will be BETTER OFF financially, WORSE OFF, or JUST ABOUT THE SAME as now?
+1.Better
+3.Worse
+5.The same
+
+C6a.
+IF R THINKS WILL BE BETTER OFF A YEAR FROM NOW /
+IF R THINKS WILL BE WORSE OFF A YEAR FROM NOW:
+MUCH better or SOMEWHAT better? / MUCH worse or SOMEWHAT worse?
+1.Much
+5.Somewhat
+
+C7.
+Do you personally, or jointly with a spouse, have any MONEY INVESTED IN THE STOCK MARKET right now - either in an individual stock or in a mutual fund?
+1.Yes
+5.No
+
+C8.
+Do you presently have any kind of health insurance?
+1.Yes
+5.No
+
+D1.
+Now we would like to know something about the feelings you have toward the candidates for President. I am going to name a candidate, and I want you to tell me whether something about that person, or something he or she has done, has made you have certain feelings like anger or pride.
+
+D1a.
+Think about Barack Obama. Has Barack Obama - because of the kind of person he is or because of something he has done, ever made you feel: ANGRY?
+1.Yes
+5.No
+
+
+
+D1a1.                                                         FORWARD/REVERSE
+IF R SAYS DEMOCRATIC PRESIDENTIAL CANDIDATE HAS MADE R FEEL ANGRY:
+How often would you say you've felt angry?
+1.Very often
+2.Fairly often
+3.Occasionally
+4.Rarely
+5.Never
+IF HOPEFUL IS 1ST AFFECT FOR DEMOCRATIC PRESIDENTIAL CANDIDATE /
+IF HOPEFUL IS NOT 1ST AFFECT FOR DEMOCRATIC PRESIDENTIAL CANDIDATE :
+D1b.
+Think about Barack Obama.
+Has Barack Obama - because of the kind of person he is or because of something he has done, ever made you feel: HOPEFUL 
+1.Yes
+5.No
+
+
+
+IF R SAYS DEMOCRATIC PRESIDENTIAL CANDIDATE HAS MADE R FEEL HOPEFUL:
+D1b1.                                                         FORWARD/REVERSE
+How often would you say you've felt hopeful?
+1.Very often
+2.Fairly often
+3.Occasionally
+4.Rarely
+5.Never
+
+IF AFRAID IS 1ST AFFECT FOR DEMOCRATIC PRESIDENTIAL CANDIDATE /
+IF AFRAID IS NOT 1ST AFFECT FOR DEMOCRATIC PRESIDENTIAL CANDIDATE :
+D1c.
+Think about Barack Obama.
+Has Barack Obama - because of the kind of person he is or because of something he has done, ever made you feel: AFRAID 
+1.Yes
+5.No
+
+
+
+IF R SAYS DEMOCRATIC PRESIDENTIAL CANDIDATE HAS MADE R FEEL AFRAID:
+D1c1.                                                         FORWARD/REVERSE
+How often would you say you've felt afraid?
+1.Very often
+2.Fairly often
+3.Occasionally
+4.Rarely
+5.Never
+
+Z1control2.
+What sound does a puppy make?
+1.Meow
+2.Bark
+3.Moo
+4.Cocka-doodle-doo
+5.Baa
+
+IF PROUD IS 1ST AFFECT FOR DEMOCRATIC PRESIDENTIAL CANDIDATE /
+IF PROUD IS NOT 1ST AFFECT FOR DEMOCRATIC PRESIDENTIAL CANDIDATE :
+D1d.
+Think about Barack Obama.
+Has Barack Obama - because of the kind of person he is or because of something he has done, ever made you feel: PROUD
+1.Yes
+5.No
+
+
+
+IF R SAYS DEMOCRATIC PRESIDENTIAL CANDIDATE HAS MADE R FEEL PROUD:
+D1d1.                                                         FORWARD/REVERSE
+How often would you say you've felt proud?
+1.Very often
+2.Fairly often
+3.Occasionally
+4.Rarely
+5.Never
+IF ANGRY IS 1ST AFFECT FOR REPUBLICAN PRESIDENTIAL CANDIDATE /
+IF ANGRY IS NOT 1ST AFFECT FOR REPUBLICAN PRESIDENTIAL CANDIDATE :
+D2a.
+Think about Mitt Romney.
+Has Mitt Romney - because of the kind of person he is or because of something he has done, ever made you feel: ANGRY
+1.Yes
+5.No
+
+
+
+IF R SAYS REPUBLICAN PRESIDENTIAL CANDIDATE HAS MADE R FEEL ANGRY:
+D2a1.                                                         FORWARD/REVERSE
+How often would you say you've felt angry?
+1.Very often
+2.Fairly often
+3.Occasionally
+4.Rarely
+5.Never
+
+IF HOPEFUL IS 1ST AFFECT FOR REPUBLICAN PRESIDENTIAL CANDIDATE /
+IF HOPEFUL IS NOT 1ST AFFECT FOR REPUBLICAN PRESIDENTIAL CANDIDATE :
+D2b.
+Think about Mitt Romney.
+Has Mitt Romney - because of the kind of person he is or because of something he has done, ever made you feel: HOPEFUL 
+1.Yes
+5.No
+
+
+
+IF R SAYS REPUBLICAN PRESIDENTIAL CANDIDATE HAS MADE R FEEL HOPEFUL:
+D2b1.                                                         FORWARD/REVERSE
+How often would you say you've felt hopeful?
+1.Very often
+2.Fairly often
+3.Occasionally
+4.Rarely
+5.Never
+D2c.
+IF AFRAID IS 1ST AFFECT FOR REPUBLICAN PRESIDENTIAL CANDIDATE /
+IF AFRAID IS NOT 1ST AFFECT FOR REPUBLICAN PRESIDENTIAL CANDIDATE :
+Think about Mitt Romney.
+Has Mitt Romney - because of the kind of person he is or because of something he has done, ever made you feel: AFRAID 
+1.Yes
+5.No
+IF R SAYS REPUBLICAN PRESIDENTIAL CANDIDATE HAS MADE R FEEL AFRAID:
+D2c1.                                                         FORWARD/REVERSE
+How often would you say you've felt afraid?
+1.Very often
+2.Fairly often
+3.Occasionally
+4.Rarely
+5.Never
+IF PROUD IS 1ST AFFECT FOR REPUBLICAN PRESIDENTIAL CANDIDATE /
+IF PROUD IS NOT 1ST AFFECT FOR REPUBLICAN PRESIDENTIAL CANDIDATE :
+D2d.
+Think about Mitt Romney.
+Has Mitt Romney - because of the kind of person he is or because of something he has done, ever made you feel: PROUD 
+1.Yes
+5.No
+
+
+
+IF R SAYS REPUBLICAN PRESIDENTIAL CANDIDATE HAS MADE R FEEL PROUD:
+D2d1.                                                         FORWARD/REVERSE
+How often would you say you've felt proud?
+1.Very often
+2.Fairly often
+3.Occasionally
+4.Rarely
+5.Never
+
+E1.
+We hear a lot of talk these days about liberals and conservatives. Here is a seven-point scale on which the political views that people might hold are arranged from extremely liberal to extremely conservative.
+
+E1a.
+Where would you place YOURSELF on this scale?
+1.Extremely liberal
+2.Liberal
+3.Slightly liberal
+4.Moderate; middle of the road
+5.Slightly conservative
+6.Conservative
+7.Extremely conservative
+
+E1b.
+If you had to choose, would you consider yourself a LIBERAL or a CONSERVATIVE?
+1.Liberal
+3.Conservative
+
+
+
+
+E2a.
+Where would you place Barack Obama on this scale?
+1.Extremely liberal
+2.Liberal
+3.Slightly liberal
+4.Moderate; middle of the road
+5.Slightly conservative
+6.Conservative
+7.Extremely conservative
+
+
+E2b.
+Where would you place Mitt Romney on this scale?
+1.Extremely liberal
+2.Liberal
+3.Slightly liberal
+4.Moderate; middle of the road
+5.Slightly conservative
+6.Conservative
+7.Extremely conservative
+
+E3a.
+Where would you place the DEMOCRATIC PARTY on this scale?
+1.Extremely liberal
+2.Liberal
+3.Slightly liberal
+4.Moderate; middle of the road
+5.Slightly conservative
+6.Conservative
+7.Extremely conservative
+
+E3b.
+Where would you place the REPUBLICAN PARTY on this scale?
+1.Extremely liberal
+2.Liberal
+3.Slightly liberal
+4.Moderate; middle of the road
+5.Slightly conservative
+6.Conservative
+7.Extremely conservative
+
+E4.
+Generally speaking, would you say that you personally CARE A GOOD DEAL who wins the presidential election this fall, or that you DON'T CARE VERY MUCH who wins?
+1.Care a good deal
+3.Don't care very much
+
+E5.
+Who do you think will be elected President in November?
+1.Barack Obama
+3.Mitt Romney
+
+
+E5a.
+Do you think the Presidential race will be CLOSE or will one candidate WIN BY QUITE A BIT ?
+1.Will be close
+5.Win by quite a bit
+
+
+E6.
+What about in your state? Which candidate for President do you think will carry your state?
+1.Barack Obama
+3.Mitt Romney
+
+E6a.
+Do you think the Presidential race will be CLOSE here in or will one candidate WIN BY QUITE A BIT in your state?
+1.Will be close
+5.Win by quite a bit
+
+E7.
+Did you vote in a presidential primary election or caucus?
+1.Yes, voted in primary or caucus
+5.No, didn't vote in primary or caucus
+
+E7a.
+If you voted in a presidential primary or caucus?
+For which presidential candidate did you cast a vote?
+1.Mitt Romney
+2.Rick Santorum
+3.Ron Paul
+4.Newt Gingrich
+5.Herman Cain
+6.Rick Perry
+7.Gary Johnson
+8.Buddy Roemer 
+9.Jon Huntsman
+10.Michele Bachmann
+11.Barack Obama
+12.Other
+13.I didn't vote in a primary or caucus
+
+E8.
+Generally speaking, do you believe that you HAVE A DUTY to vote in every national election, or do you believe that you DO NOT HAVE A DUTY to vote in every national election?
+1.Yes, have a duty
+5.No, don't have a duty
+
+E9a.                   SPLIT TYPE: C OF C/D
+I'd like to read you a few statements about public life. Please tell me how strongly you agree or disagree with each of them. 'Sometimes, politics and government seem so complicated that a person like me can't really understand what's going on.'
+1.Agree strongly
+2.Agree somewhat
+3.Neither agree nor disagree
+4.Disagree somewhat
+5.Disagree strongly
+
+E9b.                   SPLIT TYPE: C OF C/D
+'I feel that I have a pretty good understanding of the important political issues facing our country.'
+(Do you AGREE STRONGLY, AGREE SOMEWHAT, NEITHER AGREE NOR DISAGREE, DISAGREE SOMEWHAT, or DISAGREE STRONGLY with this statement?)
+1.Agree strongly
+2.Agree somewhat
+3.Neither agree nor disagree
+4.Disagree somewhat
+5.Disagree strongly
+
+E9c.                   SPLIT TYPE: C OF C/D
+'Public officials don't care much what people like me think.'
+(Do you AGREE STRONGLY, AGREE SOMEWHAT, NEITHER AGREE NOR DISAGREE, DISAGREE SOMEWHAT, or DISAGREE STRONGLY with this statement?)
+1.Agree strongly
+2.Agree somewhat
+3.Neither agree nor disagree
+4.Disagree somewhat
+5.Disagree strongly
+
+E9d.                   SPLIT TYPE: C OF C/D
+'People like me don't have any say about what the government does.'
+(Do you AGREE STRONGLY, AGREE SOMEWHAT, NEITHER AGREE NOR DISAGREE, DISAGREE SOMEWHAT, or DISAGREE STRONGLY with this statement?)
+1.Agree strongly
+2.Agree somewhat
+3.Neither agree nor disagree
+4.Disagree somewhat
+5.Disagree strongly
+
+Z1control3.
+'If you are paying attention, then please select the first choice below.'
+(Do you AGREE STRONGLY, AGREE SOMEWHAT, NEITHER AGREE NOR DISAGREE, DISAGREE SOMEWHAT, or DISAGREE STRONGLY with this statement?)
+1.Agree strongly
+2.Agree somewhat
+3.Neither agree nor disagree
+4.Disagree somewhat
+5.Disagree strongly
+
+E10a.                 SPLIT TYPE: D OF C/D
+FORWARD/REVERSE
+How often do politics and government seem so complicated that you can't really understand what's going on? 
+1.All the time
+2.Most of the time
+3.About half the time
+4.Some of the time
+5.Never
+
+E10b.                 SPLIT TYPE: D OF C/D
+FORWARD/REVERSE
+How well do you understand the important political issues facing our country? 
+1.Extremely well
+2.Very well
+3.Moderately well
+4.Slightly well
+5.Not well at all
+
+E10c.                 SPLIT TYPE: D OF C/D
+FORWARD/REVERSE
+How much do public officials care what people like you think?
+1.A great deal
+2.A lot
+3.A moderate amount
+4.A little
+5.Not at all
+
+E10d.                 SPLIT TYPE: D OF C/D
+FORWARD/REVERSE
+How much can people like you affect what the government does?
+1.A great deal
+2.A lot
+3.A moderate amount
+4.A little
+5.Not at all
+
+E11.                                                            FORWARD/REVERSE
+If you wanted to defend an opinion of yours, how successfully do you think you could do that? 
+1.Extremely successfully
+2.Very successfully
+3.Moderately successfully
+4.Slightly successfully
+5.Not successfully at all
+
+E12.                                                            FORWARD/REVERSE
+Of the situations when you see two people disagreeing with one another, in how many of them can you see how both people could be right? 
+1.All of them
+2.Most of them
+3.About half of them
+4.A few of them
+5.None of them
+
+F1.
+Now thinking about the economy in the country as a whole, would you say that over the past year the nation's economy has gotten BETTER, stayed ABOUT THE SAME, or gotten WORSE?
+1.Gotten better
+3.Stayed about the same
+5.Gotten worse
+
+F1a.
+MUCH better or SOMEWHAT better? / MUCH worse or SOMEWHAT worse?
+1.Much
+5.Somewhat
+
+
+
+F2a.
+What about the next 12 months? Do you expect the economy, in the country as a whole, to get BETTER, stay ABOUT THE SAME, or get WORSE?
+1.Get better
+3.Stay about the same
+5.Get worse
+
+F2a1.
+MUCH better or SOMEWHAT better? /
+MUCH worse or SOMEWHAT worse?
+1.Much
+5.Somewhat
+
+F2b1.
+What about the next 12 months? If Barack Obama wins the election, do you expect the economy, in the country as a whole, to get BETTER, stay ABOUT THE SAME, or get WORSE?
+1.Get better
+3.Stay about the same
+5.Get worse
+
+F2b1a.
+How much better will the economy get if Barack Obama wins the election? MUCH better or SOMEWHAT better? / How much worse will the economy get if Barack Obama wins the election? MUCH worse or SOMEWHAT worse?
+1.Much
+5.Somewhat
+
+F2b2.
+If Mitt Romney wins the election, do you expect the economy, in the country as a whole, to get BETTER, stay ABOUT THE SAME, or get WORSE?
+1.Get better
+3.Stay about the same
+5.Get worse
+
+F2b2a.
+How much better will the economy get if Mitt Romney wins the election? MUCH better or SOMEWHAT better? / How much worse will the economy get if Mitt Romney wins the election? MUCH worse or SOMEWHAT worse?
+1.Much
+5.Somewhat
+
+F3.
+Would you say that OVER THE PAST YEAR, the level of unemployment in the country has gotten BETTER, stayed ABOUT THE SAME, or gotten WORSE?
+1.Better
+3.About the same
+5.Worse
+
+
+
+
+F3a.
+Would you say MUCH better or SOMEWHAT better? / Would you say MUCH worse or SOMEWHAT worse?
+1.Much
+5.Somewhat
+
+F4.
+How about people out of work during THE COMING 12 MONTHS- do you think that there will be MORE unemployment than now, ABOUT THE SAME, or LESS?
+1.More
+3.About the same
+5.Less
+
+F5.
+Would you say that OVER THE PAST YEAR, inflation has gotten BETTER, stayed ABOUT THE SAME, or gotten WORSE?
+1.Better
+3.About the same
+5.Worse
+
+F5a.
+IF R SAYS INFLATION HAS GOTTEN BETTER / IF R SAYS INFLATION HAS GOTTEN WORSE:
+Would you say MUCH better or SOMEWHAT better? / Would you say MUCH worse or SOMEWHAT worse?
+1.Much
+5.Somewhat
+7.I answered "About the same" to the previous question
+
+F6.
+How about inflation during the COMING 12 MONTHS - do you think that there will be HIGHER inflation than now, ABOUT THE SAME, or LOWER inflation?
+1.More
+3.About the same
+5.Less
+
+F7.
+If you really needed to borrow money, could you borrow money from a family member or a close friend, or is there no family member or close friend you could borrow money from?
+1.Could borrow from someone
+5.There is no one
+
+F7a.
+IF R HAS FAMILY MEMBER OR FRIEND FROM WHOM R COULD BORROW MONEY:
+What is the largest TOTAL amount of money that you could borrow from all family members and close friends combined?
+Enter the amount in dollars.
+{IF NEEDED, PROBE: What would be your best guess? RECORD IN WHOLE U.S. DOLLARS}
+
+F8a.
+Generally speaking, would you say that most people CAN BE TRUSTED, or that you CAN'T BE TOO CAREFUL in dealing with people?
+1.Most people can be trusted
+2.Can't be too careful
+
+
+
+F8b.
+FORWARD/REVERSE
+Generally speaking, how often can you trust other people?
+ALWAYS, MOST OF THE TIME, ABOUT HALF THE TIME, ONCE IN A WHILE, or NEVER?
+1.Always
+2.Most of the time
+3.About half the time
+4.Once in a while
+5.Never
+
+G1.                                                             FORWARD/REVERSE
+Which party do you think would do a better job of HANDLING THE NATION'S ECONOMY...
+1.Democrats
+3.Republicans
+5.Not much difference between them
+7.Neither party
+
+G2a.
+FORWARD/REVERSE
+Looking ahead, do you think the problem of KEEPING OUT OF WAR would be handled better in the next four years by the DEMOCRATS, the REPUBLICANS, or ABOUT THE SAME by both?
+1.Democrats
+3.Republicans
+5.About the same by both
+7.Neither party
+
+G2b.
+FORWARD/REVERSE
+Looking ahead, which party would be more likely to involve the United States in another war in the next four years- the DEMOCRATS, the REPUBLICANS, or ABOUT THE SAME by both?
+1.Democrats
+3.Republicans
+5.About the same by both
+7.Neither party
+
+H1.
+Turning to some other types of issues facing the country. During the past year, would you say that the United States' position in the world has grown WEAKER, stayed ABOUT THE SAME, or has it grown STRONGER?
+1.Weaker
+3.Stayed about the same
+5.Stronger
+
+H2.
+Do you AGREE or DISAGREE with this statement: 
+'This country would be better off if we just stayed home and did not concern ourselves with problems in other parts of the world.'
+1.Agree
+5.Disagree
+
+J1.                                                              FORWARD/REVERSE
+Generally speaking, do you usually think of yourself as a DEMOCRAT, a REPUBLICAN, an INDEPENDENT, or what?
+1.Democrat
+2.Republican
+3.Independent
+4.Other party
+
+J1a.
+If you consider yourself a Democrat or a Republican: 
+Would you call yourself a STRONG Democrat or a NOT VERY STRONG Democrat / Would you call yourself a STRONG Republican or a NOT VERY STRONG Republican?
+1.Strong
+5.Not very strong
+
+J1b.
+If you consider yourself an Independent:
+Do you think of yourself as CLOSER to the Republican Party or to the Democratic party?
+1.Closer to Republican
+5.Closer to Democratic
+7.I do not consider myself an Independent 
+
+K1.
+Below is a list of words and phrases people may use to describe political figures. For each, say whether the word or phrase describes the candidate. 
+
+
+K1a1.                 SPLIT TYPE: J OF J/K
+FORWARD/REVERSE
+Think about Barack Obama. In your opinion, how well does the phrase 'he is MORAL' describe Barack Obama?
+1.Extremely well
+2.Quite well
+3.Not too well
+
+
+
+K1a2.
+FORWARD/REVERSE
+Think about Barack Obama. In your opinion, how well does the phrase 'he PROVIDES STRONG LEADERSHIP' describe Barack Obama?
+1.Extremely well
+2.Quite well
+3.Not too well
+
+
+K1a3.
+FORWARD/REVERSE
+Think about Barack Obama. In your opinion, how well does the phrase 'he REALLY CARES ABOUT PEOPLE LIKE YOU' describe Barack Obama?
+1.Extremely well
+2.Quite well
+3.Not too well
+
+
+K1a4.
+Think about Barack Obama. In your opinion, how well does the phrase 'he is KNOWLEDGEABLE' describe Barack Obama?
+1.Extremely well
+2.Quite well
+3.Not too well
+
+
+
+
+K1a5.                 SPLIT TYPE: J OF J/K
+Think about Barack Obama. In your opinion, how well does the phrase 'he is INTELLIGENT' describe Barack Obama?
+1.Extremely well
+2.Quite well
+3.Not too well
+
+
+
+
+
+K1a6.                 SPLIT TYPE: J OF J/K
+Think about Barack Obama. In your opinion, how well does the phrase 'he is HONEST' describe Barack Obama?
+1.Extremely well
+2.Quite well
+3.Not too well
+
+
+
+
+
+K1a7.                 SPLIT TYPE: J OF J/K
+Think about Barack Obama. In your opinion, how well does the phrase 'he is OPTIMISTIC' describe Barack Obama?
+1.Extremely well
+2.Quite well
+3.Not too well
+
+
+
+
+K1b1.                 SPLIT TYPE: J OF J/K
+FORWARD/REVERSE
+Think about Mitt Romney. In your opinion, how well does the phrase 'he is MORAL' describe Mitt Romney?
+1.Extremely well
+2.Quite well
+3.Not too well
+
+
+
+K1b2.
+FORWARD/REVERSE
+Think about Mitt Romney. In your opinion, how well does the phrase 'he PROVIDES STRONG LEADERSHIP' describe Mitt Romney?
+1.Extremely well
+2.Quite well
+3.Not too well
+
+
+K1b3.
+FORWARD/REVERSE
+Think about Mitt Romney. In your opinion, how well does the phrase 'he REALLY CARES ABOUT PEOPLE LIKE YOU' describe Mitt Romney?
+1.Extremely well
+2.Quite well
+3.Not too well
+
+
+K1b4.
+Think about Mitt Romney. In your opinion, how well does the phrase 'he is KNOWLEDGEABLE' describe Mitt Romney?
+1.Extremely well
+2.Quite well
+3.Not too well
+
+
+
+
+K1b5.                 SPLIT TYPE: J OF J/K
+Think about Mitt Romney. In your opinion, how well does the phrase 'he is INTELLIGENT' describe Mitt Romney?
+1.Extremely well
+2.Quite well
+3.Not too well
+
+
+
+
+
+K1b6.                 SPLIT TYPE: J OF J/K
+Think about Mitt Romney. In your opinion, how well does the phrase 'he is HONEST' describe Mitt Romney?
+1.Extremely well
+2.Quite well
+3.Not too well
+
+
+Z1control4.
+What sound does a kitty make?
+1.Meow
+2.Bark
+3.Moo
+4.Woof
+5.Baa
+
+
+
+K1b7.                 SPLIT TYPE: J OF J/K
+Think about Mitt Romney. In your opinion, how well does the phrase 'he is OPTIMISTIC' describe Mitt Romney?
+1.Extremely well
+2.Quite well
+3.Not too well
+
+
+
+
+
+
+N1.
+Some people think the government should provide fewer services even in areas such as health and education in order to reduce spending. Suppose these people are at one end of a scale, at point 1. Other people feel it is important for the government to provide many more services even if it means an increase in spending. Suppose these people are at the other end, at point 7. And, of course, some other people have opinions somewhere in between, at points 2, 3, 4, 5 or 6.
+
+N1a.
+Where would you place YOURSELF on this scale?
+1. 1. Govt should provide many fewer services
+2.
+3.
+4.
+5.
+6.
+7. 7. Govt should provide many more services
+
+N1b.
+How important is this issue to you personally? 
+1.Not important at all
+2.Not too important
+3.Somewhat important
+4.Very important
+5.Extremely important
+
+N1c1.                 
+Where would you place Barack Obama on this issue?
+1. 1. Govt should provide many fewer services
+2.
+3.
+4.
+5.
+6.
+7. 7. Govt should provide many more services
+
+
+N1c2.                 
+Where would you place Mitt Romney on this issue?
+1. 1. Govt should provide many fewer services
+2.
+3.
+4.
+5.
+6.
+7. 7. Govt should provide many more services
+
+
+IF R ASSIGNED TO "NEW" VERSION GOVERNMENT SERVICES QUESTIONS:
+N1d.                   
+Do you think the government should provide MORE services than it does now, FEWER services than it does now, or ABOUT THE SAME NUMBER of services as it does now?
+1.More services
+3.Fewer services
+5.About the same services
+
+
+N1d1.                          FORWARD/REVERSE
+Do you think that the government should provide A LOT more services, SOMEWHAT more services, or SLIGHTLY more services than it does now? / Do you think that the government should provide A LOT fewer services, SOMEWHAT fewer services, or SLIGHTLY fewer services than it does now?
+1.A lot
+2.Somewhat
+3.Slightly 
+
+N1e.                   
+How important is this issue to you personally?
+(NOT IMPORTANT AT ALL, SLIGHTLY IMPORTANT, MODERATELY IMPORTANT, VERY IMPORTANT, or EXTREMELY IMPORTANT?)
+1.Not important at all
+2.Slightly important
+3.Moderately important
+4.Very important
+5.Extremely important
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF R ASSIGNED TO "NEW" VERSION GOVERNMENT SERVICES QUESTIONS:
+N1f1.
+What about Barack Obama?
+(Does Barack Obama think the government should provide MORE services than it does now, FEWER services than it does now, or ABOUT THE SAME NUMBER of services as it does now?)
+1.More services
+3.Fewer services
+5.About the same services
+IF R ASSIGNED TO "NEW" VERSION GOVERNMENT SERVICES QUESTIONS:
+IF DEMOCRATIC PRES CAND THINKS GOVT SHOULD PROVIDE MORE SERVICES THAN NOW / IF DEMOCRATIC PRES CAND THINKS GOVT SHOULD PROVIDE FEWER SERVICES THAN NOW:
+N1f1a.
+FORWARD/REVERSE
+Does he think that the government should provide A LOT more services, SOMEWHAT more services, or SLIGHTLY more services than it does now? / Does he think that the government should provide A LOT fewer services, SOMEWHAT fewer services, or SLIGHTLY fewer services than it does now?
+1.A lot
+2.Somewhat
+3.Slightly
+
+N1f2.
+What about Mitt Romney?
+(Does Mitt Romney think the government should provide MORE services than it does now, FEWER services than it does now, or ABOUT THE SAME NUMBER of services as it does now?)
+1.More services
+3.Fewer services
+5.About the same services
+
+N1f2a.
+FORWARD/REVERSE
+Does he think that the government should provide A LOT more services, SOMEWHAT more services, or SLIGHTLY more services than it does now? / Does he think that the government should provide A LOT fewer services, SOMEWHAT fewer services, or SLIGHTLY fewer services than it does now?
+1.A lot
+2.Somewhat
+3.Slightly
+
+
+N2.
+Some people believe that we should spend much less money for defense. Suppose these people are at one end of a scale, at point 1.
+Others feel that defense spending should be greatly increased. Suppose these people are at the other end, at point 7. And, of course, some other people have opinions somewhere in between, at points 2, 3, 4, 5 or 6.
+
+
+N2a.                   
+Where would you place YOURSELF on this scale?
+1. 1. Govt should decrease defense spending
+2.
+3.
+4.
+5.
+6.
+7. 7. Govt should increase defense spending
+
+
+N2b.                   
+How important is this issue to you personally? 
+1.Not important at all
+2.Not too important
+3.Somewhat important
+4.Very important
+5.Extremely important
+
+
+N2c1.                 
+Where would you place Barack Obama on this issue?
+1. 1. Govt should decrease defense spending
+2.
+3.
+4.
+5.
+6.
+7. 7. Govt should increase defense spending
+
+
+
+N2c2.                 
+Where would you place Mitt Romney on this issue?
+1. 1. Govt should decrease defense spending
+2.
+3.
+4.
+5.
+6.
+7. 7. Govt should increase defense spending
+
+
+N2d.                   
+Do you think that the government should spend MORE on national defense, LESS on national defense, or ABOUT THE SAME on national defense as it does now?
+1.More
+3.Less
+5.About the same
+
+N2d1.                          FORWARD/REVERSE
+IF R THINKS THE GOVERNMENT SHOULD SPEND MORE ON DEFENSE SPENDING / IF R THINKS THE GOVERNMENT SHOULD SPEND MORE ON DEFENSE SPENDING :
+Do you think that the government should spend A LOT more, SOMEWHAT more, or SLIGHTLY more than it does now? / Do you think that the government should spend A LOT less,
+SOMEWHAT less, or SLIGHTLY less than it does now?
+1.A lot
+3.Somewhat
+5.Slightly
+
+N2e.                   
+How important is this issue to you personally? 
+1.Not important at all
+2.Slightly important
+3.Moderately important
+4.Very important
+5.Extremely important
+
+N2f1.                  
+What about Barack Obama?
+(Does Barack Obama think the government should spend MORE on national defense, LESS on national defense, or ABOUT THE SAME on national defense?)
+1.More
+3.Less
+5.About the same
+
+
+IF DEMOCRATIC PRES CAND THINKS GOVT SHOULD SPEND MORE ON DEFENSE THAN NOW / IF DEMOCRATIC PRES CAND THINKS GOVT SHOULD SPEND LESS ON DEFENSE THAN NOW:
+N2f1a.                         FORWARD/REVERSE
+Does he think that the government should spend A LOT more, SOMEWHAT more, or SLIGHTLY more than it does now? / Does he think that the government should spend A LOT less, SOMEWHAT less, or SLIGHTLY less than it does now?
+1.A lot
+3.Somewhat
+5.Slightly
+
+N2f2.                  
+What about Mitt Romney?
+(Does Mitt Romney think the government should spend MORE on national defense, LESS on national defense, or ABOUT THE SAME on national defense?)
+1.More
+3.Less
+5.About the same
+
+
+N2f2a.                         FORWARD/REVERSE
+IF REPUBLICAN PRES CAND THINKS GOVT SHOULD SPEND MORE ON DEFENSE THAN NOW / IF REPUBLICAN PRES CAND THINKS GOVT SHOULD SPEND LESS ON DEFENSE THAN NOW:
+Does he think that the government should spend A LOT more, SOMEWHAT more, or SLIGHTLY more than it does now? / Does he think that the government should spend A LOT less, SOMEWHAT less, or SLIGHTLY less than it does now?
+1.A lot
+3.Somewhat
+5.Slightly
+
+
+
+
+
+
+
+
+
+N3.
+There is much concern about the rapid rise in medical and hospital costs. Some people feel there should be a government insurance plan which would cover all medical and hospital expenses for everyone. Suppose these people are at one end of a scale, at point 1. Others feel that all medical expenses should be paid by individuals through private insurance plans like Blue Cross or other company paid plans. Suppose these people are at the other end, at point 7. And, of course, some other people have opinions somewhere in between, at points 2, 3, 4, 5, or 6.
+
+N3a.
+Where would you place YOURSELF on this scale?
+1. 1. Govt insurance plan
+2.
+3.
+4.
+5.
+6.
+7. 7. Private insurance plan
+
+N3b.
+How important is this issue to you personally? 
+1.Not important at all
+2.Not too important
+3.Somewhat important
+4.Very important
+5.Extremely important
+
+
+N3c1.
+Where would you place Barack Obama on this issue?
+1. 1. Govt insurance plan
+2.
+3.
+4.
+5.
+6.
+7. 7. Private insurance plan
+
+
+N3c2.
+Where would you place Mitt Romney on this issue?
+1. 1. Govt insurance plan
+2.
+3.
+4.
+5.
+6.
+7. 7. Private insurance plan
+
+
+N3d.                   
+Do you FAVOR, OPPOSE, or NEITHER FAVOR NOR OPPOSE the U.S. government paying for all of the cost of prescription drugs for senior citizens who are living on very little income?
+1.Favor
+2.Oppose
+3.Neither favor nor oppose
+
+N3d1.                          FORWARD/REVERSE
+
+IF R FAVORS PRESCRIPTION DRUG COVERAGE FOR LOW INCOME SENIORS / IF R FAVORS PRESCRIPTION DRUG COVERAGE FOR LOW INCOME SENIORS :
+Do you favor that A GREAT DEAL, MODERATELY, or A LITTLE? / Do you oppose that A GREAT DEAL, MODERATELY, or A LITTLE?
+1.A great deal
+2.Moderately
+3.A little
+
+
+N3e.                   
+How important is this issue to you personally? 
+1.Not important at all
+2.Slightly important
+3.Moderately important
+4.Very important
+5.Extremely important
+
+N3f.                    
+Do you FAVOR, OPPOSE, or NEITHER FAVOR NOR OPPOSE the U.S. government paying for all necessary medical care for all Americans?
+1.Favor
+2.Oppose
+3.Neither favor nor oppose
+
+N3f1.                           FORWARD/REVERSE
+IF R FAVORS UNIVERSAL HEALTH COVERAGE FOR ALL AMERICANS /
+IF R OPPOSES UNIVERSAL HEALTH COVERAGE FOR ALL AMERICANS :
+Do you favor that A GREAT DEAL, MODERATELY, or A LITTLE? / Do you oppose that A GREAT DEAL, MODERATELY, or A LITTLE?
+1.A great deal
+2.Moderately
+3.A little
+
+N3g.                   
+How important is this issue to you personally? 
+1.Not important at all
+2.Slightly important
+3.Moderately important
+4.Very important
+5.Extremely important
+
+N3h1.                 
+What about Barack Obama?
+(Does Barack Obama FAVOR, OPPOSE, or NEITHER FAVOR NOR OPPOSE
+the U.S. government paying for all necessary medical care for all Americans?)
+1.Favor
+2.Oppose
+3.Neither favor nor oppose
+
+N3h1a.                        FORWARD/REVERSE
+IF DEMOCRATIC PRESIDENTIAL CANDIDATE FAVORS UNIVERSAL HEALTH COVERAGE / IF DEMOCRATIC PRESIDENTIAL CANDIDATE FAVORS UNIVERSAL HEALTH COVERAGE :
+Does he favor that A GREAT DEAL, MODERATELY, or A LITTLE? / Does he oppose that A GREAT DEAL, MODERATELY, or A LITTLE?
+1.A great deal
+2.Moderately
+3.A little
+
+N3h2.                 
+What about Mitt Romney?
+(Does Mitt Romney FAVOR, OPPOSE, or NEITHER FAVOR NOR OPPOSE the U.S. government paying for all necessary medical care for all Americans?)
+1.Favor
+2.Oppose
+3.Neither favor nor oppose
+
+N3h2a.                        FORWARD/REVERSE
+IF REPUBLICAN PRESIDENTIAL CANDIDATE FAVORS UNIVERSAL HEALTH COVERAGE / IF REPUBLICAN PRESIDENTIAL CANDIDATE FAVORS UNIVERSAL HEALTH COVERAGE :
+Does he favor that A GREAT DEAL, MODERATELY, or A LITTLE? / Does he oppose that A GREAT DEAL, MODERATELY, or A LITTLE?
+1.A great deal
+2.Moderately
+3.A little
+
+IF R ASSIGNED TO "OLD" VERSION JOBS QUESTIONS (GUARANTEED JOBS):
+N4.                     
+Some people feel the government in Washington should see to it that every person has a job and a good standard of living. Suppose these people are at one end of a scale, at point 1. Others think the government should just let each person get ahead on their own. Suppose these people are at the other end, at point 7. And, of course, some other people have opinions somewhere in between, at points 2, 3, 4, 5, or 6.
+IF R ASSIGNED TO "OLD" VERSION JOBS QUESTIONS (GUARANTEED JOBS):
+N4a.                   
+Where would you place YOURSELF on this scale?
+1. 1. Govt should see to jobs and standard of living
+2.
+3.
+4.
+5.
+6.
+7. 7. Govt should let each person get ahead on own
+IF R ASSIGNED TO "OLD" VERSION JOBS QUESTIONS (GUARANTEED JOBS):
+N4b.                   
+How important is this issue to you personally?
+1.Not important at all
+2.Not too important
+3.Somewhat important
+4.Very important
+5.Extremely important
+IF R ASSIGNED TO "OLD" VERSION JOBS QUESTIONS (GUARANTEED JOBS):
+
+N4c1.                 
+
+Where would you place Barack Obama on this issue?
+1. 1. Govt should see to jobs and standard of living
+2.
+3.
+4.
+5.
+6.
+7. 7. Govt should let each person get ahead on own
+
+IF R ASSIGNED TO "OLD" VERSION JOBS QUESTIONS (GUARANTEED JOBS):
+
+N4c2.                 
+
+Where would you place Mitt Romney on this issue?
+
+1. 1. Govt should see to jobs and standard of living
+2.
+3.
+4.
+5.
+6.
+7. 7. Govt should let each person get ahead on own
+
+IF R ASSIGNED TO "NEW" VERSION JOBS QUESTIONS (ILLEGAL IMMIGRANT JOBS):
+N4d.                   
+Citizens of other countries who have come to live in the United States without the permission of the U.S. government are called "illegal immigrants." Do you FAVOR, OPPOSE, or NEITHER FAVOR NOR OPPOSE allowing illegal immigrants to work in the United States for up to three years, after which they would have to go back to their home country?
+1.Favor
+2.Oppose
+3.Neither favor nor oppose
+
+IF R ASSIGNED TO "NEW" VERSION JOBS QUESTIONS (ILLEGAL IMMIGRANT JOBS):
+IF R FAVORS ILLEGAL IMMIGRANT WORK PERIOD /
+IF R OPPOSES ILLEGAL IMMIGRANT WORK PERIOD :
+N4d1.                          FORWARD/REVERSE
+Do you favor that A GREAT DEAL, MODERATELY, or A LITTLE? / Do you oppose that A GREAT DEAL, MODERATELY, or A LITTLE? 
+1.A great deal
+2.Moderately
+3.A little
+IF R ASSIGNED TO "NEW" VERSION JOBS QUESTIONS (ILLEGAL IMMIGRANT JOBS):
+N4e.                   
+How important is this issue to you personally? 
+1.Not important at all
+2.Slightly important
+3.Moderately important
+4.Very important
+5.Extremely important
+IF R ASSIGNED TO "NEW" VERSION JOBS QUESTIONS (ILLEGAL IMMIGRANT JOBS):
+N4f.                    
+Do you FAVOR, OPPOSE, or NEITHER FAVOR NOR OPPOSE the U.S. government making it possible for illegal immigrants to become U.S. citizens?
+1.Favor
+2.Oppose
+3.Neither favor nor oppose
+N4f1.                           FORWARD/REVERSE
+IF R ASSIGNED TO "NEW" VERSION JOBS QUESTIONS (ILLEGAL IMMIGRANT JOBS):
+IF R FAVORS ILLEGAL IMMIGRANT CITIZENSHIP PROCESS / IF R OPPOSES ILLEGAL IMMIGRANT CITIZENSHIP PROCESS :
+Do you favor that A GREAT DEAL, MODERATELY, or A LITTLE? / Do you oppose that A GREAT DEAL, MODERATELY, or A LITTLE? /
+1.A great deal
+2.Moderately
+3.A little
+IF R ASSIGNED TO "NEW" VERSION JOBS QUESTIONS (ILLEGAL IMMIGRANT JOBS):
+N4g.                   
+How important is this issue to you personally? 
+1.Not important at all
+2.Slightly important
+3.Moderately important
+4.Very important
+5.Extremely important
+IF R ASSIGNED TO "NEW" VERSION JOBS QUESTIONS (ILLEGAL IMMIGRANT JOBS):
+N4h1.                 
+What about Barack Obama?
+(Does Barack Obama FAVOR, OPPOSE, or NEITHER FAVOR NOR OPPOSE
+the U.S. government making it possible for illegal immigrants to become U.S. citizens?
+1.Favor
+2.Oppose
+3.Neither favor nor oppose
+
+IF R ASSIGNED TO "NEW" VERSION JOBS QUESTIONS (ILLEGAL IMMIGRANT JOBS):
+IF DEMOCRATIC PRES CAND FAVORS CITIZENSHIP PROCESS FOR ILLEGAL IMMIGRANTS /
+IF DEMOCRATIC PRES CAND OPPOSES CITIZENSHIP PROCESS FOR ILLEGAL IMMIGRANTS :
+
+
+
+
+
+
+
+
+
+N4h1a.
+FORWARD/REVERSE
+Does he favor that A GREAT DEAL, MODERATELY, or A LITTLE? / Does he oppose that A GREAT DEAL, MODERATELY, or A LITTLE? 
+1.A great deal
+2.Moderately
+3.A little
+IF R ASSIGNED TO "NEW" VERSION JOBS QUESTIONS (ILLEGAL IMMIGRANT JOBS):
+N4h2.
+What about Mitt Romney?
+(Does Mitt Romney FAVOR, OPPOSE, or NEITHER FAVOR NOR OPPOSE
+the U.S. government making it possible for illegal immigrants to become U.S. citizens?
+1.Favor
+2.Oppose
+3.Neither favor nor oppose
+
+IF R ASSIGNED TO "NEW" VERSION JOBS QUESTIONS (ILLEGAL IMMIGRANT JOBS):
+IF REPUBLICAN PRES CAND FAVORS CITIZENSHIP PROCESS FOR ILLEGAL IMMIGRANTS /
+IF REPUBLICAN PRES CAND OPPOSES CITIZENSHIP PROCESS FOR ILLEGAL IMMIGRANTS :
+N4h2a.
+FORWARD/REVERSE
+Does he favor that A GREAT DEAL, MODERATELY, or A LITTLE? / Does he oppose that A GREAT DEAL, MODERATELY, or A LITTLE? 
+1.A great deal
+2.Moderately
+3.A little
+
+
+N5.
+Some people feel that the government in Washington should make every effort to improve the social and economic position of blacks. (Suppose these people are at one end of a scale, at point 1.) Others feel that the government should not make any special effort to help blacks because they should help themselves. (Suppose these people are at the other end, at point 7.) And, of course, some other people have opinions somewhere in between, at points 2, 3, 4, 5, or 6. 
+N5a.
+
+Where would you place YOURSELF on this scale?
+1. 1. Govt should help blacks
+2.
+3.
+4.
+5.
+6.
+7. 7. Blacks should help themselves
+
+N5b1.
+
+
+
+How important is this issue to you personally?
+1.Not important at all
+2.Not too important
+3.Somewhat important
+4.Very important
+5.Extremely important
+
+
+
+
+N5c1.
+Where would you place Barack Obama on this issue?
+1. 1. Govt should help blacks
+2.
+3.
+4.
+5.
+6.
+7. 7. Blacks should help themselves
+
+N5c2.
+Where would you place Mitt Romney on this issue?
+1. 1. Govt should help blacks
+2.
+3.
+4.
+5.
+6.
+7. 7. Blacks should help themselves
+
+
+O1OpenEndedQ1.
+What has been the most important issue to you personally in this election?
+Please write a few sentences or a whole paragraph.
+
+O1OpenEndedQ2.
+What has been the second most important issue to you personally in this election?
+Please write a few sentences or a whole paragraph.
+
+O1OpenEndedQ3.
+What do you think is the most important political problem facing the United States today?
+Please write a few sentences or a whole paragraph.
+
+O1OpenEndedQ4.
+What do you think is the SECOND most important political problem facing the United States today?
+Please write a few sentences or a whole paragraph.
+
+P1.
+Next you will see a list of federal programs. For each one, say whether you would like to see spending INCREASED or DECREASED.
+
+P1a.
+The first program is: BUILDING AND REPAIRING HIGHWAYS
+If you had a say in making up the federal budget this year, should federal spending on building and repairing highways
+be INCREASED, DECREASED, or kept ABOUT THE SAME?
+1.Increased
+3.Decreased
+5.Kept about the same
+7.Cut out entirely
+IF R THINKS SPENDING ON HIGHWAYS SHOULD BE INCREASED /
+IF R THINKS SPENDING ON HIGHWAYS SHOULD BE DECREASED :
+P1a1.                                                          FORWARD/REVERSE
+Should it be increased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE? / Should it be decreased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE?
+1.A great deal
+2.A moderate amount
+3.A little
+5.I answered "Kept about the same" or "Cut out entirely" to the previous question
+P1b.
+What about SOCIAL SECURITY
+(Should federal spending on Social Security be INCREASED, DECREASED, or kept ABOUT THE SAME?)
+1.Increased
+3.Decreased
+5.Kept about the same
+7.Cut out entirely
+
+IF R THINKS SPENDING ON SOCIAL SECURITY SHOULD BE INCREASED /
+IF R THINKS SPENDING ON SOCIAL SECURITY SHOULD BE DECREASED :
+P1b1.                                                         FORWARD/REVERSE
+Should it be increased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE? / Should it be decreased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE?
+1.A great deal
+2.A moderate amount
+3.A little
+5.I answered "Kept about the same" or "Cut out entirely" to the previous question
+P1c.
+What about PUBLIC SCHOOLS
+(Should federal spending on public schools be INCREASED, DECREASED, or kept ABOUT THE SAME?)
+1.Increased
+3.Decreased
+5.Kept about the same
+7.Cut out entirely
+
+IF R THINKS SPENDING ON PUBLIC SCHOOLS SHOULD BE INCREASED /
+IF R THINKS SPENDING ON PUBLIC SCHOOLS SHOULD BE DECREASED :
+P1c1.                                                          FORWARD/REVERSE
+Should it be increased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE? / Should it be decreased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE?
+1.A great deal
+2.A moderate amount
+3.A little
+5.I answered "Kept about the same" or "Cut out entirely" to the previous question
+P1d.
+What about SCIENCE AND TECHNOLOGY
+(Should federal spending on science and technology be INCREASED, DECREASED, or kept ABOUT THE SAME?)
+1.Increased
+3.Decreased
+5.Kept about the same
+7.Cut out entirely
+
+IF R THINKS SPENDING ON SCIENCE AND TECHNOLOGY SHOULD BE INCREASED /
+IF R THINKS SPENDING ON SCIENCE AND TECHNOLOGY SHOULD BE DECREASED :
+P1d1.                                                         FORWARD/REVERSE
+Should it be increased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE? / Should it be decreased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE?
+1.A great deal
+2.A moderate amount
+3.A little
+5.I answered "Kept about the same" or "Cut out entirely" to the previous question
+P1e.
+What about DEALING WITH CRIME
+(Should federal spending on dealing with crime be INCREASED, DECREASED, or kept ABOUT THE SAME?)
+1.Increased
+3.Decreased
+5.Kept about the same
+7.Cut out entirely
+
+IF R THINKS SPENDING ON DEALING WITH CRIME SHOULD BE INCREASED /
+IF R THINKS SPENDING ON DEALING WITH CRIME SHOULD BE DECREASED :
+P1e1.                                                          FORWARD/REVERSE
+Should it be increased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE? / Should it be decreased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE?
+1.A great deal
+2.A moderate amount
+3.A little
+5.I answered "Kept about the same" or "Cut out entirely" to the previous question
+P1f.
+What about WELFARE PROGRAMS
+(Should federal spending on welfare programs be INCREASED, DECREASED, or kept ABOUT THE SAME?)
+1.Increased
+3.Decreased
+5.Kept about the same
+7.Cut out entirely
+
+IF R THINKS SPENDING ON WELFARE PROGRAMS SHOULD BE INCREASED /
+IF R THINKS SPENDING ON WELFARE PROGRAMS SHOULD BE DECREASED :
+P1f1.                                                          FORWARD/REVERSE
+Should it be increased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE? / Should it be decreased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE?
+1.A great deal
+2.A moderate amount
+3.A little
+5.I answered "Kept about the same" or "Cut out entirely" to the previous question
+P1g.
+What about CHILD CARE
+(Should federal spending on child care be INCREASED, DECREASED, or kept ABOUT THE SAME?)
+1.Increased
+3.Decreased
+5.Kept about the same
+7.Cut out entirely
+
+IF R THINKS SPENDING ON CHILD CARE SHOULD BE INCREASED /
+IF R THINKS SPENDING ON CHILD CARE SHOULD BE DECREASED :
+P1g1.                                                         FORWARD/REVERSE
+Should it be increased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE? / Should it be decreased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE?
+1.A great deal
+2.A moderate amount
+3.A little
+5.I answered "Kept about the same" or "Cut out entirely" to the previous question
+P1h.
+What about FOREIGN AID
+(Should federal spending on foreign aid be INCREASED, DECREASED, or kept ABOUT THE SAME?)
+1.Increased
+
+3.Decreased
+5.Kept about the same
+7.Cut out entirely
+IF R THINKS SPENDING ON FOREIGN AID SHOULD BE INCREASED /
+IF R THINKS SPENDING ON FOREIGN AID SHOULD BE DECREASED :
+P1h1.                                                         FORWARD/REVERSE
+Should it be increased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE? / Should it be decreased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE?
+1.A great deal
+2.A moderate amount
+3.A little
+5.I answered "Kept about the same" or "Cut out entirely" to the previous question
+P1j.
+What about AID TO THE POOR
+(Should federal spending on aid to the poor be INCREASED, DECREASED, or kept ABOUT THE SAME?)
+1.Increased
+3.Decreased
+5.Kept about the same
+7.Cut out entirely
+
+IF R THINKS SPENDING ON AID TO THE POOR SHOULD BE INCREASED /
+IF R THINKS SPENDING ON AID TO THE POOR SHOULD BE DECREASED :
+P1j1.                                                           FORWARD/REVERSE
+Should it be increased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE? / Should it be decreased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE?
+1.A great deal
+2.A moderate amount
+3.A little
+5.I answered "Kept about the same" or "Cut out entirely" to the previous question
+P1k.
+What about TIGHTENING BORDER SECURITY TO PREVENT ILLEGAL IMMIGRATION (Should federal spending on tightening border security to
+prevent illigal immigration be INCREASED, DECREASED, or kept
+ABOUT THE SAME?)
+1.Increased
+3.Decreased
+5.Kept about the same
+7.Cut out entirely
+
+IF R THINKS SPENDING ON TIGHTENING BORDER SECURITY SHOULD BE INCREASED /
+IF R THINKS SPENDING ON TIGHTENING BORDER SECURITY SHOULD BE DECREASED :
+P1k1.                                                          FORWARD/REVERSE
+Should it be increased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE? / Should it be decreased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE?
+1.A great deal
+2.A moderate amount
+3.A little
+5.I answered "Kept about the same" or "Cut out entirely" to the previous question
+
+
+Z1control5.
+What about PEOPLE WHO ARE NOT RANDOMLY CLICKING (Should answer the fourth choice for the next two questions. to be INCREASED, DECREASED, or kept ABOUT THE SAME?)
+1.Increased
+3.Decreased
+5.Kept about the same
+7.Cut out entirely
+
+IF R THINKS SPENDING ON TIGHTENING BORDER SECURITY SHOULD BE INCREASED /
+IF R THINKS SPENDING ON TIGHTENING BORDER SECURITY SHOULD BE DECREASED :
+Z1control6.                                                          FORWARD/REVERSE
+Should it be increased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE? / Should it be decreased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE?
+1.A great deal
+2.A moderate amount
+3.A little
+5.I answered "Kept about the same" or "Cut out entirely" to the previous question
+
+
+P1m.
+What about THE WAR ON TERRORISM
+(Should federal spending on the war on terrorism be INCREASED, DECREASED, or kept ABOUT THE SAME?)
+1.Increased
+3.Decreased
+5.Kept about the same
+7.Cut out entirely
+
+
+
+
+
+
+
+
+IF R THINKS SPENDING ON THE WAR ON TERRORISM SHOULD BE INCREASED /
+IF R THINKS SPENDING ON THE WAR ON TERRORISM SHOULD BE DECREASED :
+P1m1.                                                        FORWARD/REVERSE
+Should it be increased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE? / Should it be decreased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE?
+1.A great deal
+2.A moderate amount
+3.A little
+5.I answered "Kept about the same" or "Cut out entirely" to the previous question
+P1n.
+What about PROTECTING THE ENVIRONMENT
+(Should federal spending on protecting the environment
+be INCREASED, DECREASED, or kept ABOUT THE SAME?)
+1.Increased
+3.Decreased
+5.Kept about the same
+7.Cut out entirely
+
+IF R THINKS SPENDING ON PROTECTING THE ENVIRONMENT SHOULD BE INCREASED /
+IF R THINKS SPENDING ON PROTECTING THE ENVIRONMENT SHOULD BE DECREASED :
+P1n1.                                                         FORWARD/REVERSE
+Should it be increased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE? / Should it be decreased A GREAT DEAL, A MODERATE AMOUNT, or A LITTLE?
+1.A great deal
+2.A moderate amount
+3.A little
+5.I answered "Kept about the same" or "Cut out entirely" to the previous question
+P2.
+Please look at page 13 of the Respondent Booklet.
+Which one of the following opinions best agrees with your view? 
+People who make more money should pay a LARGER PERCENT of their income in taxes to the government than people who make less money. 
+People who make more money should pay a SMALLER PERCENT of their income in taxes to the government than people who make less money.
+The amount of money people make SHOULD NOT DETERMINE what percent of their income they pay in taxes.
+1.Larger percent
+2.Smaller percent
+3.Should not determine
+P3.
+Do you think that big companies should pay a LARGER percent of their profits in taxes than small businesses do, that big companies should pay a SMALLER percent of their profits in taxes than small businesses do, or that big companies and small businesses should pay the SAME percent of their profits in taxes?
+1.Larger
+2.Smaller
+3.The same
+IF R ASSIGNED TO "OLD" VERSION ENVIRONMENT QUESTIONS (ENVIRONMENT-JOBS):
+P4.
+Some people think it is important to protect the environment even if it costs some jobs or otherwise reduces our standard of living. (Suppose these people are at one end of the scale, at point number 1). Other people think that protecting the environment is not as important as maintaining jobs and our standard of living. (Suppose these people are at the other end of the scale, at point number 7. And of course, some other people have opinions somewhere in between, at points 2, 3, 4, 5, or 6).
+
+P4a.                   
+Where would you place YOURSELF on this scale?
+1. 1. Protect environment, even if it costs jobs & standard of living
+2.
+3.
+4.
+5.
+6.
+7. 7. Jobs & standard of living more important than environment
+IF R ASSIGNED TO "OLD" VERSION ENVIRONMENT QUESTIONS (ENVIRONMENT-JOBS):
+P4b.                   
+How important is this issue to you personally?
+1.Not important at all
+2.Not too important
+3.Somewhat important
+4.Very important
+5.Extremely important
+IF R ASSIGNED TO "OLD" VERSION ENVIRONMENT QUESTIONS (ENVIRONMENT-JOBS):
+
+P4c1.                 
+Where would you place Barack Obama (on this issue)?
+1. 1. Protect environment, even if it costs jobs & standard of living
+2.
+3.
+4.
+5.
+6.
+7. 7. Jobs & standard of living more important than environment
+
+
+IF R ASSIGNED TO "OLD" VERSION ENVIRONMENT QUESTIONS (ENVIRONMENT-JOBS):
+
+P4c2.                 
+Where would you place Mitt Romney (on this issue)?
+1. 1. Protect environment, even if it costs jobs & standard of living
+2.
+3.
+4.
+5.
+6.
+7. 7. Jobs & standard of living more important than environment
+
+
+IF R ASSIGNED TO "NEW" VERSION ENVIRONMENT QUESTIONS (ENVIR STANDARDS):
+
+
+
+
+
+
+
+
+
+
+O1OpenEndedQ5.
+As you know, on September 11th 2001, a group of Terrorists took control of several U.S. commercial airplanes and crashed them into the World Trade Center in New York and the Pentagon in Washington. What do you think the Terrorists were trying to accomplish by their actions?
+Please write a few sentences or a whole paragraph.
+
+O1OpenEndedQ6.
+Why do you think Mitt Romney won the Republican nomination?
+Please write a few sentences or a whole paragraph.
+
+O1OpenEndedQ7.
+Why do you think Rick Santorum lost the Republican nomination?
+Please write a few sentences or a whole paragraph.
+
+
+P4d.
+Next, we'd like to ask whether you favor, oppose, or neither favor nor oppose a series of ways that the federal government might try to reduce future global warming.
+Power plants put gases into the air that could cause global warming. Do you FAVOR, OPPOSE, or NEITHER FAVOR NOR OPPOSE the federal government lowering the amount of these gases that power plants are allowed to put into the air?
+1.Favor
+2.Oppose
+3.Neither favor nor oppose
+P4d1.
+FORWARD/REVERSE
+IF R ASSIGNED TO "NEW" VERSION ENVIRONMENT QUESTIONS (ENVIR STANDARDS):
+IF R FAVORS LOWER POWER PLANT EMISSIONS STANDARDS / IF R OPPOSES LOWER POWER PLANT EMISSIONS STANDARDS:
+Do you favor that A GREAT DEAL, MODERATELY, or A LITTLE? / Do you oppose that A GREAT DEAL, MODERATELY, or A LITTLE? /
+1.A great deal
+2.Moderately
+3.A little
+IF R ASSIGNED TO "NEW" VERSION ENVIRONMENT QUESTIONS (ENVIR STANDARDS):
+P4e.
+How important is this issue to you personally? 
+1.Not important at all
+2.Slightly important
+3.Moderately important
+4.Very important
+5.Extremely important
+IF R ASSIGNED TO "NEW" VERSION ENVIRONMENT QUESTIONS (ENVIR STANDARDS):
+P4f1.
+What about Barack Obama?
+(Does Barack Obama FAVOR, OPPOSE, or NEITHER FAVOR NOR OPPOSE the federal government lowering the amount of these gases that power plants are allowed to put into the air?
+1.Favor
+2.Oppose
+3.Neither favor nor oppose
+
+
+IF R ASSIGNED TO "NEW" VERSION ENVIRONMENT QUESTIONS (ENVIR STANDARDS):
+IF DEMOCRATIC PRES CAND FAVORS LOWER POWER PLANT EMISSIONS STANDARDS / IF DEMOCRATIC PRES CAND OPPOSES LOWER POWER PLANT EMISSIONS STANDARDS:
+P4f1a.
+FORWARD/REVERSE
+Does he favor that A GREAT DEAL, MODERATELY, or A LITTLE? / Does he oppose that A GREAT DEAL, MODERATELY, or A LITTLE? 
+1.A great deal
+2.Moderately
+3.A little
+IF R ASSIGNED TO "NEW" VERSION ENVIRONMENT QUESTIONS (ENVIR STANDARDS):
+P4f2.
+What about Mitt Romney?
+(Does Mitt Romney FAVOR, OPPOSE, or NEITHER FAVOR NOR OPPOSE the federal government lowering the amount of these gases that power plants are allowed to put into the air?
+1.Favor
+2.Oppose
+3.Neither favor nor oppose
+
+
+IF R ASSIGNED TO "NEW" VERSION ENVIRONMENT QUESTIONS (ENVIR STANDARDS):
+IF REPUBLICAN PRES CAND FAVORS LOWER POWER PLANT EMISSIONS STANDARDS /
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF REPUBLICAN PRES CAND OPPOSES LOWER POWER PLANT EMISSIONS STANDARDS:
+P4f2a.
+FORWARD/REVERSE
+Does he favor that A GREAT DEAL, MODERATELY, or A LITTLE? / Does he oppose that A GREAT DEAL, MODERATELY, or A LITTLE? 
+1.A great deal
+2.Moderately
+3.A little
+IF R ASSIGNED TO "NEW" VERSION ENVIRONMENT QUESTIONS (ENVIR STANDARDS):
+P4g.
+Do you FAVOR, OPPOSE, or NEITHER FAVOR NOR OPPOSE the federal government requiring automakers to build cars that use less gasoline?
+1.Favor
+2.Oppose
+3.Neither favor nor oppose
+P4g1.
+FORWARD/REVERSE
+IF R ASSIGNED TO "NEW" VERSION ENVIRONMENT QUESTIONS (ENVIR STANDARDS):
+IF R FAVORS HIGHER FUEL STANDARDS / IF R OPPOSES HIGHER FUEL STANDARDS:
+Do you favor that A GREAT DEAL, MODERATELY, or A LITTLE? / Do you oppose that A GREAT DEAL, MODERATELY, or A LITTLE? /
+1.A great deal
+2.Moderately
+3.A little
+IF R ASSIGNED TO "NEW" VERSION ENVIRONMENT QUESTIONS (ENVIR STANDARDS):
+P4h.
+Do you favor, oppose, or neither favor nor oppose increasing taxes on gasoline so people either drive less or buy cars that use less gas?
+1.Favor
+2.Oppose
+3.Neither favor nor oppose
+P4h1.
+FORWARD/REVERSE
+IF R ASSIGNED TO "NEW" VERSION ENVIRONMENT QUESTIONS (ENVIR STANDARDS):
+IF R FAVORS INCREASING GASOLINE TAXES /
+IF R OPPOSES INCREASING GASOLINE TAXES :
+Do you favor that A GREAT DEAL, MODERATELY, or A LITTLE? / Do you oppose that A GREAT DEAL, MODERATELY, or A LITTLE? /
+1.A great deal
+2.Moderately
+3.A little
+P5.
+Do you FAVOR or OPPOSE the death penalty for persons convicted of murder?
+1.Favor
+5.Oppose
+
+P5a.
+IF R FAVORS DEATH PENALTY FOR PERSONS CONVICTED OF MURDER / IF R OPPOSES DEATH PENALTY FOR PERSONS CONVICTED OF MURDER:
+(Do you favor the death penalty for persons convicted of murder) STRONGLY or NOT STRONGLY? / (Do you oppose the death penalty for persons convicted of murder) STRONGLY or NOT STRONGLY?
+1.Strongly
+5.Not strongly
+
+P6.
+Do you think the federal government should make it MORE DIFFICULT for people to buy a gun than it is now, make it EASIER for people to buy a gun, or keep these rules ABOUT THE SAME as they are now?
+1.More difficult
+3.Make it easier
+5.Keep these rules about the same
+
+
+P6a1.                 
+How important is this issue to you personally?
+1.Not important at all
+2.Not too important
+3.Somewhat important
+4.Very important
+5.Extremely important
+P6b.
+Do you happen to have in your home or garage any guns or revolvers?
+1.Yes
+5.No
+IF R ASSIGNED TO WOMEN'S ROLE QUESTIONS:
+P7.                     
+Please look at page 15 of the booklet.
+Recently there has been a lot of talk about women's rights. Some people feel that women should have an equal role with men in running business, industry, and government. (Suppose these people are at one end of a scale, at point 1.) Others feel that a woman's place is in the home. (Suppose these people are at the other end, at point 7.) And, of course, some other people have opinions somewhere in between, at points 2, 3, 4, 5 or 6. 
+
+IF R ASSIGNED TO WOMEN'S ROLE QUESTIONS:
+P7a.                   
+Where would you place YOURSELF on this scale?
+1.  1. Women and men should have equal roles
+2.
+3.
+4.
+
+5.
+6.
+7. 7. A woman's place is in the home
+IF R ASSIGNED TO WOMEN'S ROLE QUESTIONS:
+P7b.                   
+How important is this issue to you personally?
+1.Not important at all
+2.Not too important
+3.Somewhat important
+4.Very important
+5.Extremely important
+
+IF R ASSIGNED TO WOMEN'S ROLE QUESTIONS:
+P7c1.                 
+
+Where would you place Barack Obama (on this issue)?
+
+1.  1. Women and men should have equal roles
+2.
+3.
+4.
+5.
+6.
+7. 7. A woman's place is in the home
+
+
+
+IF R ASSIGNED TO WOMEN'S ROLE QUESTIONS:
+P7c2.                 
+
+Where would you place Mitt Romney (on this issue)?
+
+1.  1. Women and men should have equal roles
+2.
+3.
+4.
+5.
+6.
+7. 7. A woman's place is in the home
+
+
+
+
+Q1.
+So far as you know now, do you expect to vote in the national elections on Tuesday November 6, 2012 or not?
+If you have already voted through early voting, mark "Already voted".
+1.Yes
+5.No
+7.Already voted
+
+
+IF R EXPECTS TO VOTE IN NOVEMBER ELECTION /
+IF WILL NOT VOTE/ DK WHETHER WILL VOTE IN NOVEMBER:
+Q1a.
+Who do you think you will vote for in the election for President? / If you were going to vote, who do you think you would vote for in the election for President?
+1.Barack Obama
+2.Mitt Romney
+5.Neither
+
+
+
+R3.
+Would you say that compared to 2008, the United States is more secure from its foreign enemies, less secure, or hasn't this changed very much?
+1.More secure
+3.Less secure
+5.No change
+R3a.
+(Would you say) MUCH more secure or SOMEWHAT more secure? / (Would you say) MUCH less secure or SOMEWHAT less secure?
+1.Much
+5.Somewhat
+W1.
+Now on another topic.... Do you consider religion to be an IMPORTANT part of your life, or NOT?
+1.Important
+5.Not important
+W2.
+IF R SAYS THAT RELIGION IS IMPORTANT:
+Would you say your religion provides SOME guidance in your day-to-day living, QUITE A BIT of guidance, or a GREAT DEAL of guidance in your day-to-day life?
+1.Some
+3.Quite a bit
+5.A great deal
+7.Religion is not important to me
+W3.
+People practice their religion in different ways. Outside of attending religious services, do you pray SEVERAL TIMES A DAY, ONCE A DAY, A FEW TIMES A WEEK, ONCE A WEEK OR LESS, or NEVER?
+1.Several times a day
+2.Once a day
+3.A few times a week
+4.Once a week or less
+5.Never
+W4.
+Which of these statements comes closest to describing your feelings about the Bible? You can just give me the number of your choice.
+1. The Bible is the actual word of God and is to be taken literally, word for word.
+2. The Bible is the word of God but not everything in it should be taken literally, word for word.
+3. The Bible is a book written by men and is not the word of God
+1.The Bible is the actual word of God and is to be taken literally, word for word.
+2.The Bible is the word of God but not everything in it should be taken literally, word for word.
+3.The Bible is a book written by men and is not the word of God.
+X1.
+Lots of things come up that keep people from attending religious services even if they want to. Thinking about your life these days, do you ever attend religious services, apart from occasional weddings, baptisms or funerals?
+1.Yes
+5.No
+X1a1.
+IF R ATTEND RELIGIOUS SERVICES:
+Would you say you go to religious services ONCE A WEEK or MORE OFTEN or LESS OFTEN than once a week?
+1.Once a week
+2.More often than once a week
+2.Less than once a week
+X3.
+IF R DOES NOT ATTEND RELIGIOUS SERVICES:
+Regardless of whether you now attend any religious services do you ever think of yourself as part of a particular church or denomination?
+1.Yes
+5.No
+IF R ATTENDS RELIGIOUS SERVICES:
+X3a.
+Do you mostly attend a place of worship that is PROTESTANT, ROMAN CATHOLIC, JEWISH, or SOMETHING ELSE?
+1.Protestant
+2.Catholic
+3.Jewish
+7.Other
+9.I do not attend a place of worship
+IF R DOES NOT ATTEND CHURCH BUT THINKS OF SELF AS PART OF
+CHURCH OR DENOMINATION:
+X3b.
+Do you consider yourself PROTESTANT, ROMAN CATHOLIC, JEWISH, or
+SOMETHING ELSE?
+1.Protestant
+2.Catholic
+3.Jewish
+7.Other
+IF R ATTENDS CHURCH AND ATTENDS AS PROTESTANT OR 'OTHER' /
+IF R DOES NOT ATTEND CHURCH BUT THINKS OF SELF AS PART OF
+CHURCH OR DENOMINATION AND CONSIDERS SELF PROTESTANT OR 'OTHER':
+X4.
+What church or denomination is that?
+1.Baptist
+2.Episcopalian/Anglican/Church of England
+3.Lutheran
+4.Methodist
+5.Just Protestant
+6.Presbyterian
+7.Reformed
+8.Brethren
+9.Evangelical United Brethren
+10.Christian or just Christian
+11.Christian Scientist
+12.Church (or Churches) of Christ
+13.United Church of Christ
+14.Disciples of Christ
+15.Church of God
+16.Assembly of God
+17.Congregationalist
+18.Holiness
+19.Pentecostal
+20.Friends, Quaker
+21.Orthodox 
+22.Non-denominational - Protestant
+23.Mormons
+24.Jehovah's Witnesses
+25.Latter Day Saints
+26.Unitarian/Universalist
+27.Buddhist
+28.Hindu
+29.Muslim/Islam
+30.I do not attend a place of worship
+
+X5a.
+IF R DOES NOT ATTEND CHURCH BUT THINKS OF SELF AS PART OF CHURCH
+OR DENOMINATION AND CONSIDERS SELF PROTESTANT OR 'OTHER' : IF R SPECIFIC DENOMINATION 'OTHER':
+What is it called exactly? Is that church part of a denomination?
+Please enter "Not applicable" if you do not attend a place of worship.
+{USE ANY OR ALL AS NECESSARY; GET AS MUCH DETAIL AS POSSIBLE}
+X5b.
+IF R ATTENDS CHURCH AND ATTENDS AS PROTESTANT OR 'OTHER' /
+IF R DOES NOT ATTEND CHURCH BUT THINKS OF SELF AS PART OF CHURCH OR DENOMINATION AND CONSIDERS SELF 'OTHER' :
+IF R SPECIFIC DENOMINATION 'OTHER':
+Is that group Christian?
+1.Yes
+5.No
+7.Not applicable
+IF R ATTENDS RELIGIOUS SERVICES AND IS JEWISH :
+X6a.
+If you are Jewish, do you usually attend a synagogue or temple that is ORTHODOX, CONSERVATIVE, REFORM or what?
+1.Orthodox
+2.Conservative
+3.Reform
+7.Other 
+9.I am not Jewish
+IF R DOES NOT ATTEND RELIGIOUS SERVICES BUT THINKS OF SELF AS
+PART OF CHURCH OR DENOMINATION AND CONSIDERS SELF JEWISH:
+X6b.
+If you are Jewish, do you consider yourself ORTHODOX, CONSERVATIVE, REFORM or what?
+1.Orthodox
+2.Conservative
+3.Reform
+7.Other 
+9.I am not Jewish
+IF R IS CHRISTIAN:
+X7.
+Would you call yourself a born-again Christian, that is, have you personally had a conversion experience related to Jesus Christ?
+1.Yes
+5.No
+IF R IS CHRISTIAN:
+X8.
+Do you believe that when people take Holy Communion, the bread and wine become the body and blood of Jesus Christ, or do you believe that does not happen?
+1.Yes, does happen
+5.No, does not happen
+
+IF R IS CHRISTIAN:
+IF R BELIEVES IN TRANSSUBSTANTIATION:
+X8a.
+How important is this belief to you personally? 
+1.Not important at all
+2.Slightly important
+3.Moderately important
+
+4.Very important
+5.Extremely important
+IF R IS CHRISTIAN:
+X9.
+If you are Christian, have there been times in your life when you tried to be a good Christian, or is that not something you have tried to do?
+1.Yes, have been times
+5.No, not tried to do
+7.I am not Christian
+
+IF R IS CHRISTIAN:
+X9a.
+If you are Christian, when you have tried to be a good Christian, which did you try to do more: avoid doing sinful things yourself, or help other people?
+1.Avoid sin
+2.Help others
+7.I am not Christian
+
+X10.
+Next are some questions about different groups in our society. Please look, in the booklet, at a seven-point scale on which the characteristics of the people in a group can be rated.
+
+X10a.
+In the first statement, a score of '1' means that you think almost all of the people in that group tend to be "hard-working." A score of '7' means that you think most people in the group are "lazy." A score of '4' means that you think that most people in the group are not closer to one end or the other, and of course, you may choose any number in between. Where would you rate WHITES in general on this scale?
+1. 1. Hard-working
+2.
+3.
+4.
+5.
+6.
+7. 7. Lazy
+
+
+X10b.
+Where would you rate BLACKS on this scale?
+1. 1. Hard-working
+2.
+3.
+4.
+5.
+6.
+7. 7. Lazy
+
+
+X10c.
+Where would you rate HISPANIC-AMERICANS on this scale?
+1. 1. Hard-working
+2.
+3.
+4.
+5.
+6.
+7. 7. Lazy
+
+
+
+X10d.
+Where would you rate ASIAN-AMERICANS on this scale?
+1. 1. Hard-working
+2.
+3.
+4.
+5.
+6.
+7. 7. Lazy
+
+X11.
+The next set asks if people in each group tend to be "intelligent" or "unintelligent". Where would you rate WHITES in general on this scale?
+X11a.
+1. 1. Intelligent
+2.
+3.
+4.
+5.
+6.
+7. 7. Unintelligent
+
+X11b.
+
+Where would you rate BLACKS on this scale?
+1. 1. Intelligent
+2.
+3.
+4.
+5.
+6.
+7. 7. Unintelligent
+X11c.
+
+Where would you rate HISPANIC-AMERICANS on this scale?
+1. 1. Intelligent
+2.
+3.
+4.
+5.
+6.
+7. 7. Unintelligent
+X11d.
+
+Where would you rate ASIAN-AMERICANS on this scale?
+1. 1. Intelligent
+2.
+3.
+4.
+5.
+6.
+7. 7. Unintelligent
+
+X12x.
+Are you female or male?
+1.Female
+2.Male
+
+X12.
+Do you consider yourself to be heterosexual or straight, homosexual or gay (or lesbian), or bisexual?
+1.Heterosexual or straight
+3.Homosexual or gay (or lesbian)
+5.Bisexual
+
+
+
+
+
+
+
+
+
+
+
+
+X12a.
+Among your immediate family members, relatives, neighbors, co-workers, or close friends, are any of them gay, lesbian, or bisexual as far as you know?
+1.Yes
+5.No
+X13.
+Do you FAVOR or OPPOSE laws to protect homosexuals against job discrimination?
+1.Favor
+5.Oppose
+X13a.
+IF R FAVORS PROTECTING HOMOSEXUALS AGAINST JOB DISCRIMINATION/
+IF R OPPOSES PROTECTING HOMOSEXUALS AGAINST JOB DISCRIMINATION:
+Do you favor such laws STRONGLY or NOT STRONGLY? / Do you oppose such laws STRONGLY or NOT STRONGLY?
+1.Strongly
+5.Not strongly
+X14.
+Do you think homosexuals should be allowed to serve in the United States Armed Forces or don't you think so?
+1.Homosexuals should be allowed to serve
+5.Homosexuals should not be allowed to serve
+X14a.
+Do you feel STRONGLY or NOT STRONGLY that homosexuals should be allowed to serve? / Do you feel STRONGLY or NOT STRONGLY that homosexuals should not be allowed to serve?
+1.Strongly
+5.Not strongly
+X15.
+Do you think gay or lesbian couples, in other words, homosexual couples, should be legally permitted to adopt children?
+1.Yes
+5.No
+X16.
+Should same-sex couples be ALLOWED to marry, or do you think they should NOT BE ALLOWED to marry?
+1.Should be allowed
+3.Should not be allowed
+5.Should not be allowed to marry but should be allowed to legally form a civil union 
+Y1a.
+What is the month, day and year of your birth?
+Please enter month/day/year.
+IF R IS ASSIGNED TO REVISED VERSION OF MARITAL STATUS QUESTION:
+Y2b.
+Are you married, divorced, separated, widowed, or have you never been married?
+1.Married
+2.Divorced
+3.Separated
+4.Widowed
+5.Never married
+6.Partnered, not married
+Y3.
+What is the highest grade of school or year of college you have completed?
+1.1st grade
+2.2nd grade
+3.3rd grade
+4.4th grade
+5.5th grade
+6.6th grade
+7.7th grade
+8.8th grade
+9.9th grade
+10.10th grade
+11.11th grade
+12.12th grade
+13.1 year of college
+14.2 years of college
+15.3 years of college
+16.4 years of college
+
+Y3a.
+Did you get a high school diploma or pass a high school equivalency test?
+1.Yes
+5.No
+IF HIGHEST GRADE OF EDUCATION IS 13+ YEARS:
+Y3b.
+What is the highest degree that you have earned?
+{PROBE: IF VOCATIONAL OR TECHNICAL DEGREE OR DIPLOMA, ASK: "Is that an Associate's Degree?" IF NOT AN ASSOCIATE'S DEGREE, CODE 'No degree earned'}
+1.Bachelor's degree
+2.Master's degree
+3.PhD, LIT, SCD, DFA, DLIT, DPH, DPHIL, JSC, SJD
+4.LLB, JD
+5.MD, DDS, DVM, MVSA, DSC, DO
+6.JDC, STD, THD
+7.Associate degree (AA)
+8.None of these apply to me
+
+Y4.
+What is the highest grade of school or year of college (your husband/your wife/your partner) has completed?
+1.1st grade
+2.2nd grade
+3.3rd grade
+4.4th grade
+5.5th grade
+6.6th grade
+7.7th grade
+8.8th grade
+9.9th grade
+10.10th grade
+11.11th grade
+12.12th grade
+13.1 year of college
+14.2 years of college
+15.3 years of college
+16.4 years of college
+17.I do not have a spouse/partner
+
+Y4a.
+IF MARRIED OR PARTNERED IN Y2:
+IF HIGHEST GRADE OF SPOUSE/PARTNER IS 0-12 YEARS OR DK:
+Did (he/she) get a high school diploma or pass a high school equivalency test?
+1.Yes
+5.No
+7.I do not have a spouse/partner
+IF MARRIED OR PARTNERED IN Y2:
+IF HIGHEST GRADE OF SPOUSE/PARTNER EDUCATION IS 13+ YEARS:
+Y4b.
+What is the highest degree that (he/she) has earned?
+1.Bachelor's degree
+2.Master's degree
+3.PhD, LIT, SCD, DFA, DLIT, DPH, DPHIL, JSC, SJD
+4.LLB, JD
+5.MD, DDS, DVM, MVSA, DSC, DO
+6.JDC, STD, THD
+7.Associate degree (AA)
+8.None of these apply to my spouse/partner
+9.I do not have a spouse/partner
+Y5.
+Have you ever served or are you currently serving in the US military, the National Guard, or military reserves?
+1.Currently serving
+2.Not currently serving but previously served
+3.I have never served in the military
+Y6.
+We'd like to know if YOU are working now, temporarily laid off, or are you unemployed, retired, permanently disabled, a homemaker, a student, or what?
+1.Working now
+2.Temporarily laid off
+3.Unemployed
+4.Retired
+5.Permanently disabled
+6.A homemaker
+7.A student
+8.Other
+Y7a.
+IF R INITIALLY IDENTIFIES SELF AS HOMEMAKER/STUDENT:
+Are you doing any work for pay at the present time?
+1.Yes
+5.No
+IF R INITIALLY IDENTIFIES SELF AS HOMEMAKER/STUDENT:
+IF R IS NOT ALSO WORKING FOR PAY NOW:
+Y7b.
+Have you had a job in the LAST SIX MONTHS?
+1.Yes
+5.No
+IF R INITIALLY IDENTIFIES SELF AS RETIREE:
+Y7c.
+Are you retired?
+1.Yes
+5.No
+Y7d.
+When did you retire?
+Enter month/day/year, or "Not applicable" if you are not retired
+
+IF R INITIALLY IDENTIFIES SELF AS UNEMPLOYED: /
+IF R INITIALLY IDENTIFIES SELF AS DISABLED:
+Y9.
+If you are not currently employed, have you ever done any work for pay?
+1.Yes
+5.No
+7.I am currently employed
+Y10a.
+IF R INITIALLY IDENTIFIES SELF AS RETIRED/
+IF R INITIALLY IDENTIFIES SELF AS UNEMPLOYED AND HAS EVER WORKED FOR PAY / IF R INITIALLY IDENTIFIES SELF AS DISABLED AND HAS EVER WORKED FOR PAY /
+IF R INITIALLY IDENTIFIES SELF AS HMKR/STUDENT AND HAS WORKED LAST 6 MOS:
+What kind of work do you do now? 
+If you are not currently employed, please describe your last regular job.
+What is/was your occupation? What are/were your most important activities or duties?
+
+Y10c.
+IF R INITIALLY IDENTIFIES SELF AS RETIRED/
+IF R INITIALLY IDENTIFIES SELF AS UNEMPLOYED AND HAS EVER WORKED FOR PAY / IF R INITIALLY IDENTIFIES SELF AS DISABLED AND HAS EVER WORKED FOR PAY /
+IF R INITIALLY IDENTIFIES SELF AS HMKR/STUDENT AND HAS WORKED LAST 6 MOS:
+What kind of business/industry is that?
+If you are not currently employed, please describe your last regular job.
+{CONSULT HELP SCREEN}
+Y10d.
+IF R INITIALLY IDENTIFIES SELF AS RETIRED/
+IF R INITIALLY IDENTIFIES SELF AS UNEMPLOYED AND HAS EVER WORKED FOR PAY / IF R INITIALLY IDENTIFIES SELF AS DISABLED AND HAS EVER WORKED FOR PAY /
+IF R INITIALLY IDENTIFIES SELF AS HMKR/STUDENT AND HAS WORKED LAST 6 MOS:
+Do you work for someone else, are you self-employed, or what?
+If you are not currently employed, please describe your last regular job.
+1.Someone else
+3.Both self and someone else
+5.Self-employed
+Y10e.
+IF R INITIALLY IDENTIFIES SELF AS RETIRED/
+IF R INITIALLY IDENTIFIES SELF AS UNEMPLOYED AND HAS EVER WORKED FOR PAY / IF R INITIALLY IDENTIFIES SELF AS DISABLED AND HAS EVER WORKED FOR PAY /
+IF R INITIALLY IDENTIFIES SELF AS HMKR/STUDENT AND HAS WORKED LAST 6 MOS :
+IF R DID NOT WORK EXCLUSIVELY FOR SELF :
+Are you employed by a federal, state or local government?
+If you are not currently employed, please describe your last regular job.
+1.Yes
+5.No
+Y11a.
+IF INITIAL STATUS IS UNEMPLOYED AND HAS EVER WORKED FOR PAY /
+IF INITIAL STATUS IS RETIRED/
+IF INITIAL STATYS IS DISABLED AND HAS EVER WORKED FOR PAY:
+Have you had a job in the LAST SIX MONTHS?
+1.Yes
+5.No
+IF INITIAL STATUS IS HMKR/STUD/RET/UNEMP/DISABLED AND HAS WORKED PAST 6 MOS :
+Y12a.
+About how many hours do you work on your job in the average week?
+If you are not currently employed, please enter a number for your last job.
+{ENTER NUMBER OF HOURS 1-168}
+
+Y16g.
+Is that MORE hours than you want to work, FEWER hours than you want to work, or generally ABOUT RIGHT?
+1.More
+3.Fewer
+5.About right
+IF R IS WORKING NOW (INCL COMBINATION WITH ANY OTHER STATUS):
+Y16h.
+How worried are you about losing your job in the near future?
+A LOT, SOMEWHAT, or NOT MUCH AT ALL?
+1.A lot
+3.Somewhat
+5.Not much at all
+IF R IS WORKING NOW (INCL COMBINATION WITH ANY OTHER STATUS):
+Y16j.
+Were you out of work or laid off at any time during the last six months?
+1.Yes
+5.No
+Y16k.
+IF R IS WORKING NOW (INCL COMBINATION WITH ANY OTHER STATUS):
+During the last six months, have you had a reduction in your work hours or had to take a cut in pay at any time for reasons other than illness or personal choice?
+1.Yes
+5.No
+IF INITIAL STATUS IS RETIRED /
+IF INITIAL STATUS IS DISABLED AND HAS HAD A JOB IN THE LAST 6 MONTHS:
+Y13a.
+Are you doing any work for pay at the present time?
+1.Yes
+5.No
+Y14.
+IF INITIAL STATUS IS RETIRED AND NOT ALSO WORKING /
+IF INITIAL STATUS IS DISABLED AND HAS EVER WORKED FOR PAY/
+IF INITIAL STATUS IS HOMEMKR/STUD, NOT ALSO WORKG BUT HAS WORKD IN PAST 6 MO / IF INITIAL STATUS IS UNEMPLOYED:
+Are you looking for work at the present time?
+1.Yes
+5.No
+IF INITIAL STATUS RETIRED, NOT ALSO WORKING, AND LOOKING FOR WORK /
+IF INITIAL STATUS DISABLED, HAS EVER WORKED FOR PAY, AND LOOKING FOR WORK /
+IF INIT STATUS HMKR/STUD, NOT ALSO WORKG, WKD PAST 6 MO, AND LOOKG FOR WORK / IF INITIAL STATUS IS UNEMPLOYED, AND LOOKING FOR WORK :
+Y15.
+If you are currently looking for work, how worried are you about not being able to find a job in the near future?
+1.A lot
+3.Somewhat
+5.Not much at all
+7.I am not currently looking for work
+
+IF R IS MARRIED/PARTNERED:
+Y18.
+Please look at page 20 of the booklet.
+We'd like to know about your (HUSBAND/WIFE/PARTNER). Is (he/she) working now, temporarily laid off, or is (he/she) unemployed, retired, permanently disabled, a homemaker, a student, or what?
+1.Working now
+2.Temporarily laid off
+3.Unemployed
+4.Retired
+5.Permanently disabled
+6.A homemaker
+7.A student
+8.Other
+9.I do not have a spouse/partner
+Y19.
+Do you or anyone else in this household belong to a labor union?
+1.Yes
+5.No
+IF SOMEONE IN HOUSEHOLD BELONGS TO LABOR UNION:
+Y19a.
+Who is it that belongs to a union?
+Enter all household members who belong, or write "Not Applicable" if no one does.
+
+Y20.
+Is there someone else in your household who is age 14 or older?
+1. Someone IN ADDITION TO ME is age 14 or older in household
+5. NO ONE OTHER THAN ME is age 14 or older in household
+
+Y21a.
+How much money did your household earn before taxes last year? 
+Count all income from all members of your household. This figure should include salaries, wages, pensions, dividends, interest, and all other income.
+If you don't know, please provide your best estimate.
+1.None or less than $2,999
+2.$3,000 -$4,999
+3.$5,000 -$7,499
+4.$7,500 -$9,999
+5.$10,000 -$10,999
+6.$11,000-$12,499
+7.$12,500-$14,999
+8.$15,000-$16,999
+9.$17,000-$19,999
+10.$20,000-$21,999
+11.$22,000-$24,999
+12.$25,000-$29,999
+13.$30,000-$34,999
+14.$35,000-$39,999
+15.$40,000-$44,999
+16.$45,000-$49,999
+17.$50,000-$59,999
+18.$60,000-$74,999
+19.$75,000-$89,999
+20.$90,000-$99,999
+21.$100,000-$109,999
+22.$110,000-$119,999
+23.$120,000-$134,999
+24.$135,000+
+
+Y21b.
+How much money did you yourself earn before taxes last year, not including any of the income received by your spouse and the rest of your family.
+This figure should include salaries, wages, pensions, dividends, interest, and all other income.
+If you don't know, please provide your best estimate.
+1.None or less than $2,999
+2.$3,000 -$4,999
+3.$5,000 -$7,499
+4.$7,500 -$9,999
+5.$10,000 -$10,999
+6.$11,000-$12,499
+7.$12,500-$14,999
+8.$15,000-$16,999
+9.$17,000-$19,999
+10.$20,000-$21,999
+11.$22,000-$24,999
+12.$25,000-$29,999
+13.$30,000-$34,999
+14.$35,000-$39,999
+15.$40,000-$44,999
+16.$45,000-$49,999
+17.$50,000-$59,999
+18.$60,000-$74,999
+19.$75,000-$89,999
+20.$90,000-$99,999
+21.$100,000-$109,999
+22.$110,000-$119,999
+23.$120,000-$134,999
+24.$135,000+
+
+Y22.
+There's been some talk these days about different social classes. Most people say they belong either to the middle class or the working class. Do you ever think of yourself as belonging in one of these classes?
+1.Yes
+5.No
+
+Y22a.
+Which one?
+1.Middle class
+5.Working class
+7.I don't think of myself as belonging to a class
+
+Y22b.
+Well, if you had to make a choice, would you call yourself MIDDLE CLASS or WORKING CLASS?
+0.Upper class 
+1.Middle class
+5.Working class
+6.Lower class 
+7.I don't think of myself as belonging to a class
+
+Y23.
+Would you say that you are about AVERAGE in that class or that you are in the UPPER PART of that class?
+1.Average
+5.Upper
+7.Other
+7.I don't think of myself as belonging to a class
+
+Y24a.
+What racial or ethnic group or groups best describes you?
+{ENTER ALL THAT APPLY}
+
+Y25a.
+In addition to being American, what do you consider your main ethnic group or nationality group?
+(You can list more than one).
+
+Y26a.
+If you entered more than one, with which of these groups do you most closely identify?
+
+
+Y28a.
+Are you of Spanish or Hispanic origin or descent?
+1.Yes
+5.No
+
+Y28b.
+If you are of Hispanic origin, which category best describes your Hispanic origin.
+1.Mexican
+2.Puerto Rican
+3.Cuban
+4.Latin American
+5.Central American
+6.Spanish
+7.Other
+8.I am not of Hispanic origin
+
+Y29a.
+Where were your parents born: were they both born in the U.S., was one born in the U.S., or were both born in another country?
+1.Both parents born in the U.S.
+2.One parent born in the U.S.
+3.Neither parent born in the U.S.
+
+Y29b.
+Were you born in the mainland United States, Puerto Rico or some other country?
+1.Mainland U.S.
+2.Puerto Rico
+3.Some other country
+
+Y29b2.
+If some other country, which one?
+If you were born in the US or Puerto Rico write "Not applicable".
+
+Y29c.
+How many of your grandparents, if any, were born outside the U.S.A.?
+0.None
+1.One
+2.Two
+3.Three
+4.All
+
+
+Y29d.
+Families of Hispanic or Latino background in the United States come from many different countries. From which country do you trace your Latino heritage?
+If more than one country, then which country does most of your family come from?
+1.Argentina
+2.Bolivia
+3.Chile
+4.Colombia
+5.Costa Rica
+6.Cuba
+7.Dominican Republic
+8.Ecuador
+9.El Salvador
+10.Guatemala
+11.Honduras
+12.Mexico
+13.Nicaragua
+14.Panama
+15.Paraguay
+16.Peru
+17.Puerto Rico
+18.Spain
+19.Uruguay
+20.Venezuela
+21.I am not of Hispanic origin
+
+Y29g.
+When did you first arrive to live in the U.S. (mainland)?
+If you were born in the U.S., please write "Not applicable".
+{RECORD 4-DIGIT YEAR 1910-2008}
+
+
+Y29h.
+If you are a naturalized citizen, in what year did you become a naturalized U.S. citizen?
+If you were born a citizen, please write "Not applicable".
+IF R MENTIONS HISPANIC FOR RACE OR ETHNICITY:
+
+Y29j.
+What language do you primarily speak at home with your family? Is it only English, mostly English, only Spanish, mostly Spanish, or both languages equally?
+1.Only English
+2.Mostly English
+3.Both English and Spanish equally
+4.Mostly Spanish
+5.Only Spanish
+6.Other language(s)
+
+Y30a.
+Where was it that you grew up?  
+If in the US, what State?
+
+Y31a.                                                                                                    
+How many children age 10 or younger live in your household?
+0.0
+1.1
+2.2
+3.3
+4.4
+5.5
+6.6
+7.7
+8.8
+9.9
+10.10
+11.more than 10
+
+Y31b.                                                                                                    
+How many children age 11 to 17 live in your household?
+0.0
+1.1
+2.2
+3.3
+4.4
+5.5
+6.6
+7.7
+8.8
+9.9
+10.10
+11.more than 10
+
+Y32a.
+How long have you lived in your present city/town/township/county?
+{ENTER years, THEN months:
+ENTER ON THIS SCREEN- YEARS 0-75
+ENTER 0 in Years if answer was months only
+76 = 76+
+77 = ALL MY LIFE
+90 = OTHER}
+
+
+Y33b.
+Where did you live before you moved here?
+If you have always lived in the same place please enter "Not applicable".
+{ENTER city/county/state. PROBE for county if rural area
+DO NOT ACCEPT STATE ALONE WITHOUT COUNTY OR CITY/TOWN}
+IF R HAS LIVED IN CURRENT COMMUNITY LESS THAN 2 YEARS:
+
+Y34.
+How far away is that from were you currently live?
+0.Less than 1 mile
+1.One mile
+2.2-4 miles
+3.5-9 miles
+4.10-19 miles
+5.20-49 miles
+6.50-99 miles
+7.100-199 miles
+8.200-499 miles
+9.500 miles or more
+10.I have always lived in the same place.
+
+Y35a.
+How long have you lived in your current home?
+{ENTER years, THEN months:
+ENTER ON THIS SCREEN- YEARS 0-75
+ENTER 0 in years if answer was months only
+76 = 76+
+77 = ALL MY LIFE
+90 = OTHER}
+
+
+Y36a.
+How many telephone NUMBERS are there in this household, including regular phone numbers, fax numbers, and cell phone numbers that are answered by anyone who lives here?
+
+IF 2-10 TELEPHONE NUMBERS IN HH:
+Y36b1.
+How many of these numbers are only for business use only?
+
+Z1control7.
+Can you please enter the number thirty-three in digits?
+
+Y36d1.
+How many of the telephone numbers are for personal use?
+
+Y36f1.
+How many of the telephone numbers in your household are cell phone numbers?
+
+Y37.
+Do you/Does your family own your home, pay rent, or what?
+1.Own home
+5.Pay rent
+7.Other 
+
+Z1a.
+You are done!  Thank you very much for filling out our survey!  If you have any comments, please write them in the box below.
+
+Z1.
+Would you like us to contact you to do a follow up survey after the election? 
+We will send an email to you via your Amazon Mechanical Turk WorkerID.
+1.Yes
+2.No
+
