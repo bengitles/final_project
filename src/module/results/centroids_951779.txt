@@ -1,4 +1,4 @@
-(821, 8)
+['ideology', 'Liberal or not', 'Party affiliation', 'defense spending position', 'defense spending importance', 'healthcare position', 'healthcare importance', 'Immigration position', 'Immigration importance']
 [[-1.72592593  0.05432099 -0.67654321  2.24197531  2.44691358  2.00740741
    3.06419753  1.74814815]
  [ 1.2300885   0.88938053  0.5619469   4.46460177  2.44690265  6.07964602

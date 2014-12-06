@@ -154,11 +154,11 @@ def kmeans(X):
   kmeans_model = KMeans(n_clusters = 3)
   kmeans_model.fit(X)
 
-  print kmeans_model.cluster_centers_
+  #print kmeans_model.cluster_centers_
 
   closest, _ = pairwise_distances_argmin_min(kmeans_model.cluster_centers_, X)
-  # for point in closest:
-  #   print X[point]
+  for point in closest:
+    print X[point]
   # h = .02     # point in the mesh [x_min, m_max]x[y_min, y_max].
 
   # # Plot the decision boundary. For that, we will assign a color to each
@@ -201,6 +201,6 @@ if __name__ == '__main__':
   X = import_answers(sys.argv[1])
   X = np.array(X)
   # print type(X)
-  print X.shape
+  print " ['ideology', 'Liberal or not', 'Party affiliation', 'defense spending position', 'defense spending importance', 'healthcare position', 'healthcare importance', 'Immigration position', 'Immigration importance'] "
   kmeans(X)
   #k_nearest_neighbors(X) 
