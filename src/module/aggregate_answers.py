@@ -3,7 +3,7 @@ import numpy as np
 import sys
 
 from sklearn.cluster import KMeans
-
+from sklearn.metrics import pairwise_distances_argmin_min
 
 def import_answers(filename):
   feature_questions = ['Answer.E1a', 'Answer.E1b', 'Answer.J1', 'Answer.N1a', 'Answer.N1b', 
@@ -65,23 +65,41 @@ def import_answers(filename):
 
     # N4f and N4f1 and N4g (Illegal Immigration)
     n4f_ans = row['Answer.N4f']
+    stance = 0
+    feeling = 0
+
     if n4f_ans == 'Favor':
-      result.append(1)
+      stance = 1
     elif n4f_ans == 'Oppose':
-      result.append(2)
+      stance = 2
     else:
-      result.append(3)
+      stance = 3
 
     n4f1_ans = row['Answer.N4f1']
     if n4f1_ans == 'A great deal':
-      result.append(1)
+      feeling = 1
     elif n4f1_ans == 'Moderately':
-      result.append(2)
+      feeling = 2
     else:
-      result.append(3)
+      feeling = 3
 
-    modified_importance_list = ['Not important at all', 'Slightly important', 'Moderately important', 'Very important', 'Extremely important']
-    result.append(modified_importance_list.index(row['Answer.N4g']))
+    if stance == 1 and feeling == 1:
+      result.append(1)  # strongly support immigration
+    if stance == 1 and feeling == 2:
+      result.append(2)
+    if stance == 1 and feeling == 3:
+      result.append(3)
+    if stance == 3:
+      result.append(4)
+    if stance == 2 and feeling == 3:
+      result.append(5)
+    if stance == 2 and feeling == 2:
+      result.append(6)
+    if stance == 2 and feeling == 1:
+      result.append(7)  # strongly oppose immigration
+
+    # modified_importance_list = ['Not important at all', 'Slightly important', 'Moderately important', 'Very important', 'Extremely important']
+    # result.append(modified_importance_list.index(row['Answer.N4g']))
 
     # # P4a and b (environment)
     # a = 'Answer.P4a'
@@ -127,6 +145,10 @@ def kmeans(X):
   kmeans_model.fit(X)
 
   print kmeans_model.cluster_centers_
+
+  closest, _ = pairwise_distances_argmin_min(kmeans_model.cluster_centers_, X)
+  # for point in closest:
+  #   print X[point]
   # h = .02     # point in the mesh [x_min, m_max]x[y_min, y_max].
 
   # # Plot the decision boundary. For that, we will assign a color to each
