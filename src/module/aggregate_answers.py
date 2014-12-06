@@ -200,9 +200,9 @@ def PCA_plot_clusters(data):
   plt.ylim(y_min, y_max)
   plt.xticks(())
   plt.yticks(())
-  #plt.show()
+  plt.show()
   #savefig('PCA_clusters_951674.png')
-  savefig('PCA_clusters_951779.png')
+  #savefig('PCA_clusters_951779.png')
 
 if __name__ == '__main__':
   X = import_answers(sys.argv[1])
