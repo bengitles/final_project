@@ -1,8 +1,11 @@
 import csv
+import matplotlib.pyplot as plt
 import numpy as np
 import sys
 
+from pylab import savefig
 from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA
 from sklearn.metrics import pairwise_distances_argmin_min
 
 def import_answers(filename):
@@ -159,48 +162,53 @@ def kmeans(X):
   closest, _ = pairwise_distances_argmin_min(kmeans_model.cluster_centers_, X)
   for point in closest:
     print X[point]
-  # h = .02     # point in the mesh [x_min, m_max]x[y_min, y_max].
 
-  # # Plot the decision boundary. For that, we will assign a color to each
-  # x_min, x_max = X[:, 0].min() + 1, X[:, 0].max() - 1
-  # y_min, y_max = X[:, 1].min() + 1, X[:, 1].max() - 1
-  # print x_min
-  # xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
+def PCA_plot_clusters(data):
+  reduced_data = PCA(n_components=2).fit_transform(data)
+  kmeans = KMeans(init='k-means++', n_clusters=3, n_init=10)
+  kmeans.fit(reduced_data)
 
-  # # print xx
-  # # print yy
-  # # Obtain labels for each point in mesh. Use last trained model.
-  # Z = kmeans_model.predict(np.c_[xx.ravel(), yy.ravel()])
+  # Step size of the mesh. Decrease to increase the quality of the VQ.
+  h = .02     # point in the mesh [x_min, m_max]x[y_min, y_max].
 
-  # Z = Z.reshape(xx.shape)
+  # Plot the decision boundary. For that, we will assign a color to each
+  x_min, x_max = reduced_data[:, 0].min() + 1, reduced_data[:, 0].max() - 1
+  y_min, y_max = reduced_data[:, 1].min() + 1, reduced_data[:, 1].max() - 1
+  xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
 
-  # plt.figure(1)
-  # plt.clf()
-  # plt.imshow(Z, interpolation='nearest',
-  #          extent=(xx.min(), xx.max(), yy.min(), yy.max()),
-  #          cmap=plt.cm.Paired,
-  #          aspect='auto', origin='lower')
+  # Obtain labels for each point in mesh. Use last trained model.
+  Z = kmeans.predict(np.c_[xx.ravel(), yy.ravel()])
 
-  # plt.plot(X[:, 0], X[:, 1], 'k.', markersize=2)
+  # Put the result into a color plot
+  Z = Z.reshape(xx.shape)
+  plt.figure(1)
+  plt.clf()
+  plt.imshow(Z, interpolation='nearest',
+             extent=(xx.min(), xx.max(), yy.min(), yy.max()),
+             cmap=plt.cm.Paired,
+             aspect='auto', origin='lower')
 
-  # # Plot the centroids as a white X
-  # centroids = kmeans_model.cluster_centers_
-  # plt.scatter(centroids[:, 0], centroids[:, 1],
-  #           marker='x', s=169, linewidths=3,
-  #           color='w', zorder=10)
-  # plt.title('K-means clustering on the digits dataset (PCA-reduced data)\n'
-  #         'Centroids are marked with white cross')
-  # plt.xlim(x_min, x_max)
-  # plt.ylim(y_min, y_max)
-  # plt.xticks(())
-  # plt.yticks(())
-  # plt.show()
-
+  plt.plot(reduced_data[:, 0], reduced_data[:, 1], 'k.', markersize=2)
+  # Plot the centroids as a white X
+  centroids = kmeans.cluster_centers_
+  plt.scatter(centroids[:, 0], centroids[:, 1],
+              marker='x', s=169, linewidths=3,
+              color='w', zorder=10)
+  plt.title('K-means clustering on the candidate dataset (PCA-reduced data)\n'
+            'Centroids are marked with white cross')
+  plt.xlim(x_min, x_max)
+  plt.ylim(y_min, y_max)
+  plt.xticks(())
+  plt.yticks(())
+  #plt.show()
+  #savefig('PCA_clusters_951674.png')
+  savefig('PCA_clusters_951779.png')
 
 if __name__ == '__main__':
   X = import_answers(sys.argv[1])
   X = np.array(X)
   # print type(X)
-  print " ['ideology', 'Liberal or not', 'Party affiliation', 'defense spending position', 'defense spending importance', 'healthcare position', 'healthcare importance', 'Immigration position', 'Immigration importance'] "
-  kmeans(X)
+  #print " ['ideology', 'Liberal or not', 'Party affiliation', 'defense spending position', 'defense spending importance', 'healthcare position', 'healthcare importance', 'Immigration position', 'Immigration importance'] "
+  #kmeans(X)
+  PCA_plot_clusters(X)
   #k_nearest_neighbors(X) 
