@@ -6,13 +6,14 @@ from sklearn.neighbors import NearestNeighbors
 
 
 def import_answers(filename):
-  feature_questions = ['Answer.E1a', 'Answer.E1b', 'Answer.J1', 'Answer.N1a', 'Answer.N1b', 'Answer.N2a', 
-                     'Answer.N2b', 'Answer.N3a', 'Answer.N3b', 'Answer.N4a', 'Answer.N4b', 'Answer.N4f',
-                     'Answer.N4f1', 'Answer.N4g', 'Answer.P4a', 'Answer.P4b', 'Answer.P6', 'Answer.P6a1',
-                     'Answer.X13', 'Answer.X13a']
-  control_questions = {'Answer.Z1control1' : 'No' , 'Answer.Z1control2' : 'Bark', 'Answer.Z1control3' : 'Agree strongly', 
-                       'Answer.Z1control4' : 'Meow', 'Answer.Z1control5' : 'Cut out entirely', 
-                       'Answer.Z1control7' : '33', 'Answer.Z1control8' : '222'}
+  feature_questions = ['Answer.E1a', 'Answer.E1b', 'Answer.J1', 'Answer.N1a', 'Answer.N1b', 
+                       'Answer.N2a', 'Answer.N2b', 'Answer.N3a', 'Answer.N3b', 'Answer.N4a', 
+                       'Answer.N4b', 'Answer.N4f', 'Answer.N4f1', 'Answer.N4g', 'Answer.P4a', 
+                       'Answer.P4b', 'Answer.P6', 'Answer.P6a1', 'Answer.X13', 'Answer.X13a']
+  control_questions = {'Answer.Z1control1' : 'No' , 'Answer.Z1control2' : 'Bark', 
+                       'Answer.Z1control3' : 'Agree strongly', 'Answer.Z1control4' : 'Meow', 
+                       'Answer.Z1control5' : 'Cut out entirely', 'Answer.Z1control7' : '33', 
+                       'Answer.Z1control8' : '222'}
   
   dict_reader = csv.DictReader(open(filename, 'rb'), delimiter=',')
   dict_reader.next()
