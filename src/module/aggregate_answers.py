@@ -24,6 +24,16 @@ def import_answers(filename):
     if set(golden_answers) != set(control_questions.itervalues()):
       continue
 
+    # all fields are populated
+    somethingEmpty = False
+    for key in feature_questions:
+      if row[key] == '':
+        somethingEmpty = True
+        break
+
+    if somethingEmpty:
+      continue
+
     result = []
 
     # E1a (political ideology)
@@ -191,6 +201,6 @@ if __name__ == '__main__':
   X = import_answers(sys.argv[1])
   X = np.array(X)
   # print type(X)
-  # print X.shape
+  print X.shape
   kmeans(X)
   #k_nearest_neighbors(X) 
