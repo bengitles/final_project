@@ -1,0 +1,5 @@
+ ['ideology', 'Liberal or not', 'Party affiliation', 'defense spending position', 'healthcare position',  'Gov't and jobs position', 'Gun control position'] 
+[[-1.59615385  0.07307692 -0.67307692  2.32115385  1.89038462  2.83846154
+  -0.56538462]
+ [ 0.90033223  0.77740864  0.37209302  4.14950166  5.56478405  5.43853821
+  -0.03322259]]

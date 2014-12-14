@@ -61,11 +61,10 @@ def import_answers(filename):
     else:
       result.append(0)
 
-    # N2a and N2b (defense spending), N3a and N3b (healthcare spending)
-    N_ans = [('Answer.N2a', 'Answer.N2b'), ('Answer.N3a', 'Answer.N3b')]
-    importance_list = ['Not important at all', 'Not too important', 'Somewhat important', 'Very important', 'Extremely important']
+    # N2a (defense spending), N3a (healthcare spending), N4a (gov't and jobs)
+    N_ans = ['Answer.N2a', 'Answer.N3a', 'Answer.N4a']
 
-    for (a, b) in N_ans:
+    for a in N_ans:
       if row[a].startswith('1'):
         result.append(1)
       elif row[a].startswith('7'):
@@ -73,43 +72,51 @@ def import_answers(filename):
       else:
         result.append(int(row[a]))
 
-      result.append(importance_list.index(row[b]))
+      #result.append(importance_list.index(row[b]))
 
-
-    # N4f and N4f1 and N4g (Illegal Immigration)
-    n4f_ans = row['Answer.N4f']
-    stance = 0
-    feeling = 0
-
-    if n4f_ans == 'Favor':
-      stance = 1
-    elif n4f_ans == 'Oppose':
-      stance = 2
+    # P6a (gun control)
+    gun_control = row['Answer.P6']
+    if gun_control.startswith('More'):
+      result.append(-1)
+    elif gun_control.startswith('Make'):
+      result.append(1)
     else:
-      stance = 3
+      result.append(0)
 
-    n4f1_ans = row['Answer.N4f1']
-    if n4f1_ans == 'A great deal':
-      feeling = 1
-    elif n4f1_ans == 'Moderately':
-      feeling = 2
-    else:
-      feeling = 3
+    # # N4f and N4f1 and N4g (Illegal Immigration)
+    # n4f_ans = row['Answer.N4f']
+    # stance = 0
+    # feeling = 0
 
-    if stance == 1 and feeling == 1:
-      result.append(1)  # strongly support immigration
-    if stance == 1 and feeling == 2:
-      result.append(2)
-    if stance == 1 and feeling == 3:
-      result.append(3)
-    if stance == 3:
-      result.append(4)
-    if stance == 2 and feeling == 3:
-      result.append(5)
-    if stance == 2 and feeling == 2:
-      result.append(6)
-    if stance == 2 and feeling == 1:
-      result.append(7)  # strongly oppose immigration
+    # if n4f_ans == 'Favor':
+    #   stance = 1
+    # elif n4f_ans == 'Oppose':
+    #   stance = 2
+    # else:
+    #   stance = 3
+
+    # n4f1_ans = row['Answer.N4f1']
+    # if n4f1_ans == 'A great deal':
+    #   feeling = 1
+    # elif n4f1_ans == 'Moderately':
+    #   feeling = 2
+    # else:
+    #   feeling = 3
+
+    # if stance == 1 and feeling == 1:
+    #   result.append(1)  # strongly support immigration
+    # if stance == 1 and feeling == 2:
+    #   result.append(2)
+    # if stance == 1 and feeling == 3:
+    #   result.append(3)
+    # if stance == 3:
+    #   result.append(4)
+    # if stance == 2 and feeling == 3:
+    #   result.append(5)
+    # if stance == 2 and feeling == 2:
+    #   result.append(6)
+    # if stance == 2 and feeling == 1:
+    #   result.append(7)  # strongly oppose immigration
 
     # modified_importance_list = ['Not important at all', 'Slightly important', 'Moderately important', 'Very important', 'Extremely important']
     # result.append(modified_importance_list.index(row['Answer.N4g']))
@@ -154,18 +161,22 @@ def import_answers(filename):
   return X
 
 def kmeans(X):
-  kmeans_model = KMeans(n_clusters = 3)
+  num_clusters = int(sys.argv[2])
+  kmeans_model = KMeans(n_clusters = num_clusters)
   kmeans_model.fit(X)
 
-  #print kmeans_model.cluster_centers_
-
-  closest, _ = pairwise_distances_argmin_min(kmeans_model.cluster_centers_, X)
-  for point in closest:
-    print X[point]
+  if sys.argv[3] == 'c':
+    print kmeans_model.cluster_centers_
+  else:
+    closest, _ = pairwise_distances_argmin_min(kmeans_model.cluster_centers_, X)
+    for point in closest:
+      print X[point]
 
 def PCA_plot_clusters(data):
   reduced_data = PCA(n_components=2).fit_transform(data)
-  kmeans = KMeans(init='k-means++', n_clusters=3, n_init=10)
+
+  num_clusters = int(sys.argv[2])
+  kmeans = KMeans(init='k-means++', n_clusters=num_clusters, n_init=10)
   kmeans.fit(reduced_data)
 
   # Step size of the mesh. Decrease to increase the quality of the VQ.
@@ -208,7 +219,12 @@ if __name__ == '__main__':
   X = import_answers(sys.argv[1])
   X = np.array(X)
   # print type(X)
-  #print " ['ideology', 'Liberal or not', 'Party affiliation', 'defense spending position', 'defense spending importance', 'healthcare position', 'healthcare importance', 'Immigration position', 'Immigration importance'] "
-  #kmeans(X)
-  PCA_plot_clusters(X)
+  print " ['ideology', 'Liberal or not', 'Party affiliation', 'defense spending position', 'healthcare position',  'Gov't and jobs position', 'Gun control position'] "
+  kmeans(X)
+
+  try:
+    if sys.argv[4] == 'graph':
+      PCA_plot_clusters(X)
+  except IndexError:
+    pass
   #k_nearest_neighbors(X) 

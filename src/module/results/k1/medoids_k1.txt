@@ -1,0 +1,2 @@
+ ['ideology', 'Liberal or not', 'Party affiliation', 'defense spending position', 'healthcare position',  'Gov't and jobs position', 'Gun control position'] 
+[-1  0  0  3  4  4  0]
