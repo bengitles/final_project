@@ -39,7 +39,12 @@ def translate(input_file):
           d[k] = 'Other'
 
       if k == 'Gun control position':
-          d[k] = v + 2
+          if v == -1:
+            d[k] = 1
+          elif v == 1:
+            d[k] == 7
+          else:
+            d[k] = 4
 
     d['uuid'] = candidate_id  # unique candidate identifier
     candidate_id += 1
