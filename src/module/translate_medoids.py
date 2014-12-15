@@ -57,7 +57,7 @@ def translate(input_file):
 def write_to_output(output_file, features):
   with open(output_file, 'w') as csvfile:
     header = ['uuid_A', 'Ideology_A', 'Party_affiliation_A', 'defense_A', 'healthcare_A',  'govt_jobs_A', 'gun_control_A', 'uuid_B', 'Ideology_B', 'Party_affiliation_B', 'defense_B', 'healthcare_B',  'govt_jobs_B', 'gun_control_B']
-    writer = csv.DictWriter(csvfile, fieldnames=header)
+    writer = csv.DictWriter(csvfile, fieldnames = header)
     writer.writeheader()
 
     for subset in permutations(range(len(features)), 2):
