@@ -13,8 +13,6 @@ def translate(input_file):
   for line in f:
     line = line.replace("  ", " ")
     line = line.replace(" ", ",")
-    
-    #print line
     lst = ast.literal_eval(line)
     
     zipped_dict = dict(zip(feature_names, lst))
@@ -86,9 +84,6 @@ def write_to_output(output_file, features):
       temp_d['gun_control_B'] = B['Gun control position']
 
       writer.writerow(temp_d)
-
-    
-
 
 if __name__ == '__main__':
   input_file = sys.argv[1]
