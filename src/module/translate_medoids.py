@@ -13,8 +13,6 @@ def translate(input_file):
   for line in f:
     line = line.replace("  ", " ")
     line = line.replace(" ", ",")
-    
-    #print line
     lst = ast.literal_eval(line)
     
     zipped_dict = dict(zip(feature_names, lst))
@@ -59,7 +57,7 @@ def translate(input_file):
 def write_to_output(output_file, features):
   with open(output_file, 'w') as csvfile:
     header = ['uuid_A', 'Ideology_A', 'Party_affiliation_A', 'defense_A', 'healthcare_A',  'govt_jobs_A', 'gun_control_A', 'uuid_B', 'Ideology_B', 'Party_affiliation_B', 'defense_B', 'healthcare_B',  'govt_jobs_B', 'gun_control_B']
-    writer = csv.DictWriter(csvfile, fieldnames=header)
+    writer = csv.DictWriter(csvfile, fieldnames = header)
     writer.writeheader()
 
     for subset in permutations(range(len(features)), 2):
@@ -86,9 +84,6 @@ def write_to_output(output_file, features):
       temp_d['gun_control_B'] = B['Gun control position']
 
       writer.writerow(temp_d)
-
-    
-
 
 if __name__ == '__main__':
   input_file = sys.argv[1]
