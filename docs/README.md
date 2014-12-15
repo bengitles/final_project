@@ -5,12 +5,14 @@ data/
 --> full_voting_dataset.csv: Full 150 entry (50 distinct pairs) of voting that we facilitated on Crowdflower using our clustered centroids as candidates
 --> mock_aggregated.csv: mock example of our aggregated data after receiving ideal candidate data from Crowdflower
     
+    
 docs/
 --> README.md: this file
 --> final_project_flow_diagram.png: our flow diagram of the overall project
 --> final_project_flow_diagram.pdf: same as previous in PDF form
 --> logo.png: our logo
 --> PDFDemo.pdf: contains all of our graphs from our scientific experiment with short explanations
+
 
 src/
 --> module/
@@ -29,4 +31,3 @@ src/
         --> generate_clusters.py: Generate medoids based on k-means clustering
         --> translate_medoids.py: translate feature vectors into political qualities, pass output file back to Crowdflower, creates results/clustered_candidates_crowdflower.csv
         --> get_best_candidate.py: The heavy lifter. Summarizes full voting dataset from Crowdflower to get the ideal candidate and creates three summary output graphs
-        --> 
